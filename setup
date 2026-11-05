@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+# One-step setup for wh40k-lists: ./setup
+# Installs only what's missing, so it's safe to re-run any time.
+# See README.md ("What gets installed") for what each piece is for.
+set -euo pipefail
+cd "$(dirname "$0")"
+
+bold() { printf '\n\033[1m==> %s\033[0m\n' "$*"; }
+have() { command -v "$1" >/dev/null 2>&1; }
+ok()   { printf '  ✓ %s\n' "$*"; }
+
+case "$(uname -s)" in
+  Darwin)
+    if ! have brew; then
+      echo "Homebrew is needed to install the PDF libraries (https://brew.sh)."
+      read -r -p "Install Homebrew now? [y/N] " answer
+      [[ $answer =~ ^[Yy] ]] || { echo "Stopped. Install Homebrew, then run ./setup again."; exit 1; }
+      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      eval "$(/opt/homebrew/bin/brew shellenv 2>/dev/null || /usr/local/bin/brew shellenv)"
+    fi
+    bold "System libraries and tools (Homebrew)"
+    for lib in poppler pango; do
+      if brew list --formula "$lib" >/dev/null 2>&1; then ok "$lib"; else brew install "$lib"; fi
+    done
+    for tool in uv just; do   # skip if you already have it from anywhere (mise, pipx, ...)
+      if have "$tool"; then ok "$tool"; else brew install "$tool"; fi
+    done
+    ;;
+  Linux)
+    bold "System libraries and tools"
+    need=()
+    have pdftotext || need+=(poppler-utils)
+    ldconfig -p 2>/dev/null | grep -q 'libpango-1.0' || need+=(libpango-1.0-0 libpangoft2-1.0-0)
+    if ((${#need[@]})); then
+      if have apt-get; then sudo apt-get install -y "${need[@]}"
+      else echo "Install these with your package manager, then run ./setup again: ${need[*]}"; exit 1; fi
+    else ok "poppler, pango"; fi
+    export PATH="$HOME/.local/bin:$PATH"
+    have uv   && ok uv   || curl -LsSf https://astral.sh/uv/install.sh | sh
+    have just && ok just || uv tool install rust-just
+    ;;
+  *)
+    echo "Unsupported system. On Windows, use WSL and run ./setup there."; exit 1 ;;
+esac
+
+bold "Python $(cat .python-version) and packages (uv)"
+uv sync --locked
+
+bold "Checking it all works"
+just doctor
+
+cat <<'EOF'
+
+All set. Next steps:
+  just              list every command
+  just check        smoke-test the sample lists in lists/
+  claude            open Claude Code here and say "make me a pack for lists/dark-angels.pdf"
+EOF

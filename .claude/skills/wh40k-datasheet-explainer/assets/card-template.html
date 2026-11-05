@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ARMY_NAME}} — Reference Cards</title>
+<style>
+  /* Printable unit cards: two per Letter/A4 page. Duplicate .card per unit. */
+  @page { size: auto; margin: 10mm; }
+  * { box-sizing: border-box; }
+  body { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10pt; color: #111; margin: 0; }
+  .card { border: 2px solid #222; border-radius: 6px; padding: 8px 10px; margin-bottom: 8mm;
+          page-break-inside: avoid; break-inside: avoid; }
+  .head { display: flex; justify-content: space-between; align-items: baseline;
+          border-bottom: 2px solid #222; padding-bottom: 4px; margin-bottom: 6px; }
+  .head h2 { margin: 0; font-size: 14pt; }
+  .role { font-style: italic; margin: 0 0 6px; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 6px; }
+  th, td { border: 1px solid #999; padding: 2px 4px; text-align: center; }
+  th { background: #e6e6e6; font-size: 8.5pt; }
+  td.l, th.l { text-align: left; }
+  .abil { margin: 0; padding: 0; list-style: none; }
+  .abil li { margin: 2px 0; }
+  .tag { display: inline-block; min-width: 52px; font-size: 7.5pt; font-weight: bold;
+         text-align: center; border: 1px solid #222; border-radius: 3px; margin-right: 6px; padding: 0 3px; }
+  .watch { margin-top: 6px; padding: 4px 6px; background: #f3f3f3; border-left: 3px solid #222; }
+  .flag { margin-top: 4px; padding: 4px 6px; border: 1px dashed #b00; color: #600; font-size: 9pt; }
+  td.sm { font-size: 8.5pt; }
+  .cheat { break-before: page; page-break-before: always; break-after: page; page-break-after: always; }
+  .cheat h1 { font-size: 16pt; margin: 0 0 4px; }
+  .cheat h3 { margin: 8px 0 2px; font-size: 11pt; border-bottom: 1px solid #222; }
+  .cheat ul { margin: 2px 0 0 16px; padding: 0; } .cheat li { margin: 1px 0; font-size: 9pt; }
+  .remind { border: 2px solid #222; border-radius: 6px; padding: 6px 10px; margin: 6px 0 8px; background: #f6f6f6; }
+  .remind h2 { margin: 0 0 4px; font-size: 12pt; }
+  .remind p { margin: 2px 0; font-size: 9.5pt; }
+  .card h3 { margin: 6px 0 2px; font-size: 10.5pt; border-bottom: 1px solid #999; }
+  .card ul { margin: 2px 0 0 16px; padding: 0; } .card li { margin: 1px 0; font-size: 9.5pt; }
+  .card ul.abil { margin: 0; padding: 0; } .card ul.abil li { font-size: 10pt; }
+  .foot { margin-top: 6px; font-size: 8pt; color: #444; }
+</style>
+</head>
+<body>
+
+<!-- Normally rendered by scripts/build_cards.py from JSON; this placeholder shows the structure. -->
+<!-- ===== Duplicate from here for each unit ===== -->
+<div class="card">
+  <div class="head"><h2>{{UNIT_NAME}}</h2><span>{{POINTS}}</span></div>
+  <p class="role">{{ONE_LINE_ROLE}}</p>
+
+  <table>
+    <tr><th>M</th><th>T</th><th>Sv</th><th>Inv</th><th>W</th><th>Ld</th><th>OC</th></tr>
+    <tr><td>{{M}}</td><td>{{T}}</td><td>{{SV}}</td><td>{{INV}}</td><td>{{W}}</td><td>{{LD}}</td><td>{{OC}}</td></tr>
+  </table>
+
+  <table>
+    <tr><th class="l">Weapon</th><th>Rng</th><th>A</th><th>BS/WS</th><th>S</th><th>AP</th><th>D</th><th class="l">Keywords</th><th class="l">Good vs</th></tr>
+    <tr><td class="l">{{WEAPON}}</td><td>{{RNG}}</td><td>{{A}}</td><td>{{SKILL}}</td><td>{{S}}</td><td>{{AP}}</td><td>{{D}}</td><td class="l">{{KW}}</td><td class="l">{{GOOD_VS}}</td></tr>
+  </table>
+
+  <ul class="abil">
+    <!-- Tags: CMD MOVE SHOOT CHARGE FIGHT REACT ALWAYS ONCE -->
+    <li><span class="tag">{{TAG}}</span>{{PLAIN_LANGUAGE_ABILITY}}</li>
+  </ul>
+
+  <div class="watch"><strong>Don't forget:</strong> {{TIMING_TRAP}}</div>
+  <div class="foot">{{KEYWORDS}} · {{FACTION_KEYWORDS}} · {{LEADER_INFO}}</div>
+</div>
+<!-- ===== to here ===== -->
+
+</body>
+</html>
