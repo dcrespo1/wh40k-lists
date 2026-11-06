@@ -86,18 +86,21 @@ itself. They're for checking and debugging the skill.
 
 ## Layout
 
-```
-lists/<faction>/                       army list exports (mostly warmind.online PDFs)
-.claude/skills/wh40k-datasheet-explainer/
-  SKILL.md                             what Claude follows
-  references/                          rules guidance, output formats
-  scripts/                             PDF parsing and card rendering
-  assets/                              card template, disposition matrix
-40k-output/                            generated packs (gitignored, safe to delete)
-40k-output-example/                    a finished Dark Angels pack (committed)
-setup                                  one-step install
-justfile                               shortcut commands
-pyproject.toml, uv.lock                Python packages, locked versions
+```text
+wh40k-lists/
+├── lists/                            army list exports (mostly warmind.online PDFs)
+├── .claude/skills/
+│   └── wh40k-datasheet-explainer/
+│       ├── SKILL.md                  what Claude follows
+│       ├── references/               rules guidance, output formats
+│       ├── scripts/                  PDF parsing and card rendering
+│       └── assets/                   card template, disposition matrix
+├── 40k-output/                       your generated packs (gitignored, safe to delete)
+├── 40k-output-example/               a finished Dark Angels pack (committed)
+├── setup                             one-step install
+├── justfile                          shortcut commands
+├── pyproject.toml                    Python packages
+└── uv.lock                           locked package versions
 ```
 
 ## How the Python setup works
