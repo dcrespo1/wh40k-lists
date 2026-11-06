@@ -26,11 +26,11 @@ Supported: macOS (tested) and Debian/Ubuntu Linux. On Windows, use WSL.
 
 ## Example output
 
-[`40k-output-example/`](40k-output-example/) holds a finished pack for
+[`output-example/`](output-example/) holds a finished pack for
 `lists/dark-angels.pdf` (2000 pts, Wrath of the Rock + Assault Brethren, Take
-and Hold). Open
-[`dark-angels-reference.pdf`](40k-output-example/dark-angels-reference.pdf) to
-see what you'll get. It runs to 10 pages:
+and Hold). **[View it online](https://dcrespo1.github.io/wh40k-lists/)**, or
+open [`dark-angels-reference.pdf`](output-example/dark-angels-reference.pdf)
+to see what you'll get. It runs to 10 pages:
 
 | Pages | What's on them |
 |-------|----------------|
@@ -49,6 +49,23 @@ The other files show the steps in between:
 
 Your own packs go to `40k-output/`, which is gitignored. The example folder is
 committed, so regenerate it by hand if the skill's output changes.
+
+### Publishing the example
+
+[`.github/workflows/pages.yml`](.github/workflows/pages.yml) publishes
+`output-example/` to GitHub Pages:
+
+- **When it runs:** only on a push to `main` that changes something in
+  `output-example/` (or the workflow file). Any other push leaves the site as
+  it is. To re-publish by hand, use **Actions → Publish example pack → Run
+  workflow**.
+- **What gets published:** every `*-reference.html` and `*-reference.pdf` in
+  the folder, plus an index page that lists them. To show off a new feature,
+  copy a pack in (for example, from a local eval) and push. It appears on the
+  index without any other edits. The JSON files stay in the repo and aren't
+  published, because they carry the export's rules text.
+- **One-time setup:** in the repo, go to **Settings → Pages** and set
+  **Source** to **GitHub Actions**.
 
 ## What gets installed
 
@@ -95,8 +112,9 @@ wh40k-lists/
 │       ├── references/               rules guidance, output formats
 │       ├── scripts/                  PDF parsing and card rendering
 │       └── assets/                   card template, disposition matrix
+├── .github/workflows/pages.yml       publishes output-example/ to GitHub Pages
 ├── 40k-output/                       your generated packs (gitignored, safe to delete)
-├── 40k-output-example/               a finished Dark Angels pack (committed)
+├── output-example/                   a finished Dark Angels pack (committed)
 ├── setup                             one-step install
 ├── justfile                          shortcut commands
 ├── pyproject.toml                    Python packages
