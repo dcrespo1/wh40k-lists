@@ -1,0 +1,1157 @@
+{
+ "army": {
+  "name": "Dark Angels Army",
+  "header": "Dark Angels · Wrath of the Rock + Assault Brethren · Strike Force · 2000/2000 pts · 3/3 DP · Take and Hold · Battle-legal · Mustered 4 Nov 2026",
+  "points": "2000/2000 pts",
+  "detachment_points": "3/3 DP",
+  "faction": "Dark Angels",
+  "detachments": [
+   "Wrath of the Rock",
+   "Assault Brethren"
+  ],
+  "battle_size": "Strike Force",
+  "disposition": "Take and Hold",
+  "disposition_options": [
+   "Take and Hold"
+  ]
+ },
+ "units": [
+  {
+   "name": "Azrael + Inner Circle Companions",
+   "points": 330,
+   "parts": [
+    {
+     "name": "Azrael",
+     "role": "leader",
+     "points": 150,
+     "models": [
+      {
+       "name": "Azrael",
+       "M": "6\"",
+       "T": "5",
+       "SV": "2+",
+       "INV": "4+",
+       "W": "6",
+       "LD": "6+",
+       "OC": "1"
+      }
+     ],
+     "weapons": [
+      {
+       "name": "Lion's Wrath",
+       "type": "ranged",
+       "count": 1,
+       "range": "24\"",
+       "A": "2",
+       "BS": "2+",
+       "S": "8",
+       "AP": "-3",
+       "D": "2",
+       "keywords": [
+        "ANTI-INFANTRY 4+",
+        "DEVASTATING WOUNDS",
+        "RAPID FIRE 1",
+        "SUSTAINED HITS 1"
+       ],
+       "notes": [],
+       "profile_of": null
+      },
+      {
+       "name": "The Sword of Secrets",
+       "type": "melee",
+       "count": 1,
+       "range": "Melee",
+       "A": "6",
+       "WS": "2+",
+       "S": "6",
+       "AP": "-4",
+       "D": "2",
+       "keywords": [
+        "DEVASTATING WOUNDS",
+        "SUSTAINED HITS 1"
+       ],
+       "notes": [],
+       "profile_of": null
+      }
+     ]
+    },
+    {
+     "name": "Inner Circle Companions",
+     "role": "bodyguard",
+     "points": 180,
+     "models": [
+      {
+       "name": "6× Inner Circle Companions",
+       "M": "6\"",
+       "T": "5",
+       "SV": "3+",
+       "INV": "4+",
+       "W": "3",
+       "LD": "6+",
+       "OC": "2"
+      }
+     ],
+     "weapons": [
+      {
+       "name": "Heavy Bolt Pistol",
+       "type": "ranged",
+       "count": 6,
+       "range": "18\"",
+       "A": "1",
+       "BS": "3+",
+       "S": "5",
+       "AP": "-1",
+       "D": "1",
+       "keywords": [
+        "CLOSE-QUARTERS",
+        "SUSTAINED HITS 1"
+       ],
+       "notes": [],
+       "profile_of": null
+      },
+      {
+       "name": "Calibanite Greatsword - Strike",
+       "type": "melee",
+       "count": 6,
+       "range": "Melee",
+       "A": "4",
+       "WS": "3+",
+       "S": "6",
+       "AP": "-2",
+       "D": "2",
+       "keywords": [
+        "LETHAL HITS",
+        "SUSTAINED HITS 1"
+       ],
+       "notes": [],
+       "profile_of": "Calibanite Greatsword"
+      },
+      {
+       "name": "Calibanite Greatsword - Sweep",
+       "type": "melee",
+       "count": 6,
+       "range": "Melee",
+       "A": "5",
+       "WS": "3+",
+       "S": "6",
+       "AP": "-2",
+       "D": "1",
+       "keywords": [
+        "SUSTAINED HITS 2",
+        "SUSTAINED HITS 1"
+       ],
+       "notes": [],
+       "profile_of": "Calibanite Greatsword"
+      }
+     ]
+    }
+   ],
+   "keywords": "CHARACTER EPIC HERO INFANTRY EXPLOSIVES IMPERIUM TACTICUS CHAPTER MASTER DEATHWING AZRAEL INNER CIRCLE COMPANIONS",
+   "faction_keywords": "ADEPTUS ASTARTES DARK ANGELS",
+   "other": {
+    "conferred weapon keywords": [
+     "[SUSTAINED HITS 1] Supreme Grand Master · Azrael"
+    ],
+    "what each model carries": [
+     "Azrael Lion's Wrath, The Sword of Secrets",
+     "6× Inner Circle Companions Heavy Bolt Pistol, Calibanite Greatsword"
+    ]
+   },
+   "abilities_text": "Masterful Tactician AZRAEL\nIn your Movement phase you may name up to one friendly ADEPTUS ASTARTES unit that is visible and no more than 9\"\nfrom this model, then name one combat doctrine. It stays active for that unit until your next Command phase begins.\nSupreme Grand Master AZRAEL\nAttacks made by this unit have [SUSTAINED HITS 1].\nWatcher in the Dark AZRAEL\n(Once per battle, per unit) Should this unit suffer a mortal wound in any phase, it may summon a Watcher in the Dark,\ngaining Feel No Pain 4+ against mortal wounds.\nThe Lion Helm AZRAEL\nA 4+ invulnerable save protects this unit.\nBraziers of Judgement INNER CIRCLE COMPANIONS\n• Stealth is carried by this unit.\n• Melee attacks aimed at it take -1 to their hit rolls.\nEnmity for the Unworthy INNER CIRCLE COMPANIONS\nWhenever this unit attacks a CHARACTER unit, those attacks take +1 to their hit rolls.\nInvulnerable Save 4+ LEADER · INNER CIRCLE COMPANIONS\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nTranshuman Strategist ARMY RULE\nFull text under Rules and Stratagems.\nDutiful Tenacity DETACHMENT\nWhenever an attack whose S beats the T of a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is aimed at it, that\nattack takes -1 to its wound roll.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle.\nLeader AZRAEL\nAttached to: Inner Circle Companions."
+  },
+  {
+   "name": "Belial + Deathwing Knights",
+   "points": 355,
+   "parts": [
+    {
+     "name": "Belial",
+     "role": "leader",
+     "points": 100,
+     "models": [
+      {
+       "name": "Belial",
+       "M": "5\"",
+       "T": "6",
+       "SV": "2+",
+       "INV": "4+",
+       "W": "6",
+       "LD": "6+",
+       "OC": "1"
+      }
+     ],
+     "weapons": [
+      {
+       "name": "Master-Crafted Storm Bolter",
+       "type": "ranged",
+       "count": 1,
+       "range": "24\"",
+       "A": "2",
+       "BS": "2+",
+       "S": "5",
+       "AP": "-1",
+       "D": "2",
+       "keywords": [
+        "PRECISION"
+       ],
+       "notes": [],
+       "profile_of": null
+      },
+      {
+       "name": "The Sword of Silence",
+       "type": "melee",
+       "count": 1,
+       "range": "Melee",
+       "A": "6",
+       "WS": "2+",
+       "S": "6",
+       "AP": "-3",
+       "D": "2",
+       "keywords": [],
+       "notes": [],
+       "profile_of": null
+      }
+     ]
+    },
+    {
+     "name": "Deathwing Knights",
+     "role": "bodyguard",
+     "points": 255,
+     "models": [
+      {
+       "name": "4× Deathwing Knight",
+       "M": "5\"",
+       "T": "6",
+       "SV": "2+",
+       "INV": "4+",
+       "W": "4",
+       "LD": "6+",
+       "OC": "1"
+      },
+      {
+       "name": "Knight Master",
+       "M": "5\"",
+       "T": "6",
+       "SV": "2+",
+       "INV": "4+",
+       "W": "4",
+       "LD": "6+",
+       "OC": "1"
+      }
+     ],
+     "weapons": [
+      {
+       "name": "Great Weapon of the Unforgiven",
+       "type": "melee",
+       "count": 1,
+       "range": "Melee",
+       "A": "5",
+       "WS": "2+",
+       "S": "6",
+       "AP": "-2",
+       "D": "2",
+       "keywords": [
+        "DEVASTATING WOUNDS",
+        "SUSTAINED HITS 1"
+       ],
+       "notes": [],
+       "profile_of": null
+      },
+      {
+       "name": "Mace of Absolution",
+       "type": "melee",
+       "count": 4,
+       "range": "Melee",
+       "A": "4",
+       "WS": "2+",
+       "S": "6",
+       "AP": "-2",
+       "D": "2",
+       "keywords": [
+        "ANTI-MONSTER 4+",
+        "ANTI-VEHICLE 4+"
+       ],
+       "notes": [],
+       "profile_of": null
+      }
+     ]
+    }
+   ],
+   "keywords": "CHARACTER EPIC HERO INFANTRY CAPTAIN IMPERIUM TERMINATOR DEATHWING BELIAL DEATHWING KNIGHTS",
+   "faction_keywords": "ADEPTUS ASTARTES DARK ANGELS",
+   "other": {
+    "what each model carries": [
+     "Belial Master-Crafted Storm Bolter, The Sword of Silence",
+     "4× Deathwing Knight Mace of Absolution",
+     "Knight Master Great Weapon of the Unforgiven"
+    ]
+   },
+   "abilities_text": "Grand Master of the Deathwing BELIAL\nAgainst an enemy CHARACTER unit, the attacks this unit makes have +1 to wound rolls.\nStrikes of Retribution BELIAL\nWhen this model is destroyed in the Fight phase before this unit has been selected to fight, roll one D6: on a 2+ it stays on\nthe battlefield until this unit has fought or the phase ends, whichever comes first, and is then removed.\nDeep Strike BELIAL + DEATHWING KNIGHTS\nYou may hold this unit in Reserves rather than deploying it on the battlefield; when it arrives, it is set up wherever you like,\nprovided every enemy model is more than 8\" away horizontally.\nInner Circle DEATHWING KNIGHTS\n• Each attack against this unit gets -1 D.\n• The Tactical Dreadnought Fortitude stratagem can never target this unit.\nTeleport Homer (Once per battle, per unit) DEATHWING KNIGHTS\nBefore the battle begins, you can put one Teleport Homer token for this unit anywhere on the battlefield. While it is there:\n• When this unit is the target of the Rapid Ingress stratagem, you can spend the token: that use costs -1 CP, and the unit\nhas to arrive within 3\" of the token and not within 8\" of any enemy unit. The token then leaves the battlefield.\n• If an enemy unit finishes a move within 1\" of the token, the token leaves the battlefield.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nTranshuman Strategist ARMY RULE\nFull text under Rules and Stratagems.\nDutiful Tenacity DETACHMENT\nWhenever an attack whose S beats the T of a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is aimed at it, that\nattack takes -1 to its wound roll.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle.\nLeader BELIAL\nAttached to: Deathwing Knights."
+  },
+  {
+   "name": "Ezekiel",
+   "points": 110,
+   "parts": [
+    {
+     "name": "Ezekiel",
+     "role": null,
+     "points": null,
+     "models": [
+      {
+       "name": "Ezekiel",
+       "M": "6\"",
+       "T": "5",
+       "SV": "2+",
+       "INV": "4+",
+       "W": "5",
+       "LD": "6+",
+       "OC": "1",
+       "FNP": "4+*"
+      }
+     ],
+     "weapons": [
+      {
+       "name": "Mind Wipe - Witchfire",
+       "type": "ranged",
+       "count": 1,
+       "range": "12\"",
+       "A": "1",
+       "BS": "2+",
+       "S": "6",
+       "AP": "-2",
+       "D": "D6",
+       "keywords": [
+        "DEVASTATING WOUNDS",
+        "PRECISION",
+        "PSYCHIC",
+        "CLOSE-QUARTERS"
+       ],
+       "notes": [],
+       "profile_of": "Mind Wipe"
+      },
+      {
+       "name": "Mind Wipe - Focused Witchfire",
+       "type": "ranged",
+       "count": 1,
+       "range": "12\"",
+       "A": "1",
+       "BS": "2+",
+       "S": "6",
+       "AP": "-2",
+       "D": "D3+3",
+       "keywords": [
+        "ANTI-CHARACTER 4+",
+        "DEVASTATING WOUNDS",
+        "HAZARDOUS",
+        "PRECISION",
+        "PSYCHIC",
+        "CLOSE-QUARTERS"
+       ],
+       "notes": [],
+       "profile_of": "Mind Wipe"
+      },
+      {
+       "name": "The Deliverer",
+       "type": "ranged",
+       "count": 1,
+       "range": "12\"",
+       "A": "1",
+       "BS": "2+",
+       "S": "5",
+       "AP": "-1",
+       "D": "2",
+       "keywords": [
+        "CLOSE-QUARTERS",
+        "PRECISION"
+       ],
+       "notes": [],
+       "profile_of": null
+      },
+      {
+       "name": "Traitor's Bane",
+       "type": "melee",
+       "count": 1,
+       "range": "Melee",
+       "A": "5▲",
+       "WS": "2+",
+       "S": "6",
+       "AP": "-3",
+       "D": "2",
+       "keywords": [
+        "PSYCHIC",
+        "PRECISION"
+       ],
+       "notes": [
+        "▲ Book of Salvation (modifier already applied to marked value)"
+       ],
+       "profile_of": null
+      }
+     ]
+    }
+   ],
+   "keywords": "CHARACTER EPIC HERO INFANTRY EXPLOSIVES IMPERIUM PSYKER LIBRARIAN TACTICUS DEATHWING EZEKIEL",
+   "faction_keywords": "ADEPTUS ASTARTES DARK ANGELS",
+   "other": {},
+   "abilities_text": "Engulfing Fear\n(Psychic level 1) In your Shooting phase, while this unit is not battle-shocked, you can roll one D6 as a psychic roll for it; a\n1 leaves this unit battle-shocked. Then pick one enemy unit within 12\" of this model: it takes a Battle-shock test, with 1\nsubtracted from the result.\nBook of Salvation\nMelee attacks made by this unit have +1 A.\nPsychic Hood\nModels in this unit have the Feel No Pain 4+ ability against Psychic Attacks and against mortal wounds.\nChief Librarian\n(Psyker level 3) The psychic abilities on this datasheet, in the Psychic Abilities section, belong to this model.\nWhispers of the Shadow Forest\n(Psychic level 1) Where an enemy unit targets this unit, a psychic roll is open to it while it is not battle-shocked. Roll one\nD6; if you do:\n• A 1 leaves this unit battle-shocked.\n• Until the phase ends, subtract 1 from the Hit roll for every attack that targets this unit.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nDutiful Tenacity DETACHMENT\nWhenever an attack whose S beats the T of a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is aimed at it, that\nattack takes -1 to its wound roll.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle."
+  },
+  {
+   "name": "Lion El'Jonson",
+   "points": 415,
+   "parts": [
+    {
+     "name": "Lion El'Jonson",
+     "role": null,
+     "points": null,
+     "models": [
+      {
+       "name": "Lion El'Jonson",
+       "M": "8\"",
+       "T": "10",
+       "SV": "2+",
+       "INV": "3+",
+       "W": "16",
+       "LD": "5+",
+       "OC": "4",
+       "FNP": "4+*"
+      }
+     ],
+     "weapons": [
+      {
+       "name": "Arma Luminis - Bolt",
+       "type": "ranged",
+       "count": 1,
+       "range": "18\"",
+       "A": "4",
+       "BS": "2+",
+       "S": "6",
+       "AP": "-2",
+       "D": "2",
+       "keywords": [
+        "CLOSE-QUARTERS"
+       ],
+       "notes": [],
+       "profile_of": "Arma Luminis"
+      },
+      {
+       "name": "Arma Luminis - Plasma",
+       "type": "ranged",
+       "count": 1,
+       "range": "18\"",
+       "A": "2",
+       "BS": "2+",
+       "S": "10",
+       "AP": "-3",
+       "D": "3",
+       "keywords": [
+        "CLOSE-QUARTERS"
+       ],
+       "notes": [],
+       "profile_of": "Arma Luminis"
+      },
+      {
+       "name": "Fealty - Strike",
+       "type": "melee",
+       "count": 1,
+       "range": "Melee",
+       "A": "8",
+       "WS": "2+",
+       "S": "12",
+       "AP": "-4",
+       "D": "4",
+       "keywords": [
+        "LETHAL HITS"
+       ],
+       "notes": [],
+       "profile_of": "Fealty"
+      },
+      {
+       "name": "Fealty - Sweep",
+       "type": "melee",
+       "count": 1,
+       "range": "Melee",
+       "A": "12",
+       "WS": "2+",
+       "S": "6",
+       "AP": "-3",
+       "D": "2",
+       "keywords": [
+        "CLEAVE 2",
+        "SUSTAINED HITS 1"
+       ],
+       "notes": [],
+       "profile_of": "Fealty"
+      }
+     ]
+    }
+   ],
+   "keywords": "CHARACTER EPIC HERO MONSTER IMPERIUM PRIMARCH MOBILE LION EL'JONSON",
+   "faction_keywords": "ADEPTUS ASTARTES DARK ANGELS",
+   "other": {},
+   "abilities_text": "Dark Angels Bodyguard\nThis unit has Lone Operative for as long as it stands within 3\" of a friendly DARK ANGELS INFANTRY unit.\nMaster Strategist\nIn your Command phase you may use this ability. Doing so picks one combat doctrine for this unit, on top of any other it\nalready has, and it lasts until your next Command phase begins.\nPrimarch of the First Legion\nAs your Command phase begins, pick up to two abilities from the Primarch of the First Legion section. This model keeps\nthe pair until your Command phase begins again.\nThe Emperor's Shield\nAn attack aimed at this unit whose S beats this unitʼs T takes -1 to its wound roll.\nThe Watchers\nModels in this unit have the Feel No Pain 4+ ability against Psychic Attacks and against mortal wounds.\nMist-wreathed Shadow Realms PRIMARCH OF THE FIRST LEGION\nIn your Command phase, this ability is open to you while this unit is unengaged:\n• This unit goes into strategic reserves.\n• In your next Movement phase (your first turn included), an ingress move is open to it.\nMartial Exemplar (Aura) PRIMARCH OF THE FIRST LEGION\nAny friendly DARK ANGELS unit standing within 6\" of this unit may, with its melee attacks:\n• Re-roll hit rolls of 1.\n• Re-roll wound rolls of 1.\nNo Hiding From the Watchers (Aura) PRIMARCH OF THE FIRST LEGION\nAny friendly DARK ANGELS unit standing within 6\" of this unit gains Feel No Pain 5+ against psychic attacks and mortal\nwounds.\nSupreme Commander\nThis model must be your Warlord if you include it in your army.\nDeep Strike\nYou may hold this unit in Reserves rather than deploying it on the battlefield; when it arrives, it is set up wherever you like,\nprovided every enemy model is more than 8\" away horizontally.\nFights First\nThis unit fights in the Fight phase's Fights First step when it is eligible to fight and each of its models has Fights First.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nTranshuman Strategist ARMY RULE\nFull text under Rules and Stratagems.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle."
+  },
+  {
+   "name": "Techmarine",
+   "points": 55,
+   "parts": [
+    {
+     "name": "Techmarine",
+     "role": null,
+     "points": null,
+     "models": [
+      {
+       "name": "Techmarine",
+       "M": "6\"",
+       "T": "5",
+       "SV": "2+",
+       "W": "4",
+       "LD": "6+",
+       "OC": "1"
+      }
+     ],
+     "weapons": [
+      {
+       "name": "Forge Bolter",
+       "type": "ranged",
+       "count": 1,
+       "range": "24\"",
+       "A": "3",
+       "BS": "2+",
+       "S": "5",
+       "AP": "-1",
+       "D": "2",
+       "keywords": [
+        "SUSTAINED HITS 1"
+       ],
+       "notes": [],
+       "profile_of": null
+      },
+      {
+       "name": "Grav-Pistol",
+       "type": "ranged",
+       "count": 1,
+       "range": "12\"",
+       "A": "2",
+       "BS": "2+",
+       "S": "2",
+       "AP": "-1",
+       "D": "3",
+       "keywords": [
+        "ANTI-VEHICLE 2+",
+        "CLOSE-QUARTERS"
+       ],
+       "notes": [],
+       "profile_of": null
+      },
+      {
+       "name": "Omnissian Power Axe and Servo-Arm",
+       "type": "melee",
+       "count": 1,
+       "range": "Melee",
+       "A": "5",
+       "WS": "3+",
+       "S": "6",
+       "AP": "-2",
+       "D": "2",
+       "keywords": [],
+       "notes": [],
+       "profile_of": null
+      }
+     ]
+    }
+   ],
+   "keywords": "INFANTRY CHARACTER EXPLOSIVES IMPERIUM TACTICUS TECHMARINE",
+   "faction_keywords": "ADEPTUS ASTARTES",
+   "other": {},
+   "abilities_text": "Techmarine\nThis model has Lone Operative while it is within 3\" of a friendly ADEPTUS ASTARTES VEHICLE unit.\nBlessings of the Omnissiah\nAt the start or the end of this unit's move in your Movement phase, pick one friendly ADEPTUS ASTARTES VEHICLE model\nthat is within 3\" of this model:\n• The VEHICLE model heals D3 wounds.\n• Until your next Movement phase begins, attacks by the VEHICLE model can ignore modifiers to their hit rolls and wound\nrolls.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nDutiful Tenacity DETACHMENT\nWhenever an attack whose S beats the T of a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is aimed at it, that\nattack takes -1 to its wound roll.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle."
+  },
+  {
+   "name": "Intercessor Squad",
+   "points": 85,
+   "parts": [
+    {
+     "name": "Intercessor Squad",
+     "role": null,
+     "points": null,
+     "models": [
+      {
+       "name": "5× Intercessor Squad",
+       "M": "6\"",
+       "T": "5",
+       "SV": "3+",
+       "W": "2",
+       "LD": "6+",
+       "OC": "2"
+      }
+     ],
+     "weapons": [
+      {
+       "name": "Bolt Pistol",
+       "type": "ranged",
+       "count": 5,
+       "range": "12\"",
+       "A": "1",
+       "BS": "3+",
+       "S": "5",
+       "AP": "-1",
+       "D": "1",
+       "keywords": [
+        "CLOSE-QUARTERS"
+       ],
+       "notes": [],
+       "profile_of": null
+      },
+      {
+       "name": "Bolt Rifle - Focused Fire",
+       "type": "ranged",
+       "count": 5,
+       "range": "24\"",
+       "A": "1",
+       "BS": "3+",
+       "S": "6",
+       "AP": "-1",
+       "D": "2",
+       "keywords": [
+        "HEAVY",
+        "RAPID FIRE 1"
+       ],
+       "notes": [],
+       "profile_of": "Bolt Rifle"
+      },
+      {
+       "name": "Bolt Rifle - Saturation",
+       "type": "ranged",
+       "count": 5,
+       "range": "24\"",
+       "A": "2",
+       "BS": "3+",
+       "S": "5",
+       "AP": "-1",
+       "D": "1",
+       "keywords": [
+        "ASSAULT",
+        "RAPID FIRE 1"
+       ],
+       "notes": [],
+       "profile_of": "Bolt Rifle"
+      },
+      {
+       "name": "Knives and Fists",
+       "type": "melee",
+       "count": 5,
+       "range": "Melee",
+       "A": "3",
+       "WS": "3+",
+       "S": "5",
+       "AP": "0",
+       "D": "1",
+       "keywords": [],
+       "notes": [],
+       "profile_of": null
+      }
+     ]
+    }
+   ],
+   "keywords": "INFANTRY BATTLELINE EXPLOSIVES IMPERIUM TACTICUS INTERCESSOR SQUAD",
+   "faction_keywords": "ADEPTUS ASTARTES",
+   "other": {
+    "what each model carries": [
+     "Intercessor Sergeant Bolt Pistol, Bolt Rifle, Knives and Fists",
+     "4× Intercessor Bolt Pistol, Bolt Rifle, Knives and Fists"
+    ]
+   },
+   "label": "squad A",
+   "abilities_text": "Bolter Discipline\nDuring your Shooting phase, the ranged attacks of this unit have +1 to hit rolls where either of the following holds:\n• An objective is within range of this unit.\n• An objective is within range of the target of that attack.\nTactical Mainstay\n• This unit stays eligible to start an action while engaged/battle-shocked.\n• An action this unit has started does not stop it being eligible to shoot.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nDutiful Tenacity DETACHMENT\nWhenever an attack whose S beats the T of a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is aimed at it, that\nattack takes -1 to its wound roll.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle."
+  },
+  {
+   "name": "Intercessor Squad",
+   "points": 85,
+   "parts": [
+    {
+     "name": "Intercessor Squad",
+     "role": null,
+     "points": null,
+     "models": [
+      {
+       "name": "5× Intercessor Squad",
+       "M": "6\"",
+       "T": "5",
+       "SV": "3+",
+       "W": "2",
+       "LD": "6+",
+       "OC": "2"
+      }
+     ],
+     "weapons": [
+      {
+       "name": "Bolt Pistol",
+       "type": "ranged",
+       "count": 5,
+       "range": "12\"",
+       "A": "1",
+       "BS": "3+",
+       "S": "5",
+       "AP": "-1",
+       "D": "1",
+       "keywords": [
+        "CLOSE-QUARTERS"
+       ],
+       "notes": [],
+       "profile_of": null
+      },
+      {
+       "name": "Bolt Rifle - Focused Fire",
+       "type": "ranged",
+       "count": 5,
+       "range": "24\"",
+       "A": "1",
+       "BS": "3+",
+       "S": "6",
+       "AP": "-1",
+       "D": "2",
+       "keywords": [
+        "HEAVY",
+        "RAPID FIRE 1"
+       ],
+       "notes": [],
+       "profile_of": "Bolt Rifle"
+      },
+      {
+       "name": "Bolt Rifle - Saturation",
+       "type": "ranged",
+       "count": 5,
+       "range": "24\"",
+       "A": "2",
+       "BS": "3+",
+       "S": "5",
+       "AP": "-1",
+       "D": "1",
+       "keywords": [
+        "ASSAULT",
+        "RAPID FIRE 1"
+       ],
+       "notes": [],
+       "profile_of": "Bolt Rifle"
+      },
+      {
+       "name": "Knives and Fists",
+       "type": "melee",
+       "count": 5,
+       "range": "Melee",
+       "A": "3",
+       "WS": "3+",
+       "S": "5",
+       "AP": "0",
+       "D": "1",
+       "keywords": [],
+       "notes": [],
+       "profile_of": null
+      }
+     ]
+    }
+   ],
+   "keywords": "INFANTRY BATTLELINE EXPLOSIVES IMPERIUM TACTICUS INTERCESSOR SQUAD",
+   "faction_keywords": "ADEPTUS ASTARTES",
+   "other": {
+    "what each model carries": [
+     "Intercessor Sergeant Bolt Pistol, Bolt Rifle, Knives and Fists",
+     "4× Intercessor Bolt Pistol, Bolt Rifle, Knives and Fists"
+    ]
+   },
+   "label": "squad B",
+   "abilities_text": "Bolter Discipline\nDuring your Shooting phase, the ranged attacks of this unit have +1 to hit rolls where either of the following holds:\n• An objective is within range of this unit.\n• An objective is within range of the target of that attack.\nTactical Mainstay\n• This unit stays eligible to start an action while engaged/battle-shocked.\n• An action this unit has started does not stop it being eligible to shoot.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nDutiful Tenacity DETACHMENT\nWhenever an attack whose S beats the T of a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is aimed at it, that\nattack takes -1 to its wound roll.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle."
+  },
+  {
+   "name": "Hellblaster Squad",
+   "points": 115,
+   "parts": [
+    {
+     "name": "Hellblaster Squad",
+     "role": null,
+     "points": null,
+     "models": [
+      {
+       "name": "5× Hellblaster Squad",
+       "M": "6\"",
+       "T": "5",
+       "SV": "3+",
+       "W": "2",
+       "LD": "6+",
+       "OC": "1"
+      }
+     ],
+     "weapons": [
+      {
+       "name": "Bolt Pistol",
+       "type": "ranged",
+       "count": 5,
+       "range": "12\"",
+       "A": "1",
+       "BS": "3+",
+       "S": "5",
+       "AP": "-1",
+       "D": "1",
+       "keywords": [
+        "CLOSE-QUARTERS"
+       ],
+       "notes": [],
+       "profile_of": null
+      },
+      {
+       "name": "Plasma Incinerator - Standard",
+       "type": "ranged",
+       "count": 5,
+       "range": "24\"",
+       "A": "2",
+       "BS": "3+",
+       "S": "7",
+       "AP": "-2",
+       "D": "2",
+       "keywords": [
+        "ASSAULT",
+        "RAPID FIRE 1"
+       ],
+       "notes": [],
+       "profile_of": "Plasma Incinerator"
+      },
+      {
+       "name": "Plasma Incinerator - Supercharge",
+       "type": "ranged",
+       "count": 5,
+       "range": "24\"",
+       "A": "2",
+       "BS": "3+",
+       "S": "8",
+       "AP": "-3",
+       "D": "2",
+       "keywords": [
+        "ASSAULT",
+        "HAZARDOUS",
+        "RAPID FIRE 1"
+       ],
+       "notes": [],
+       "profile_of": "Plasma Incinerator"
+      },
+      {
+       "name": "Ceramite Fists",
+       "type": "melee",
+       "count": 5,
+       "range": "Melee",
+       "A": "3",
+       "WS": "3+",
+       "S": "5",
+       "AP": "0",
+       "D": "1",
+       "keywords": [],
+       "notes": [],
+       "profile_of": null
+      }
+     ]
+    }
+   ],
+   "keywords": "INFANTRY EXPLOSIVES IMPERIUM TACTICUS HELLBLASTER SQUAD",
+   "faction_keywords": "ADEPTUS ASTARTES",
+   "other": {
+    "what each model carries": [
+     "Hellblaster Sergeant Bolt Pistol, Plasma Incinerator, Ceramite Fists",
+     "4× Hellblaster Bolt Pistol, Plasma Incinerator, Ceramite Fists"
+    ]
+   },
+   "abilities_text": "Rites of Thermal Appeasement\nHazard rolls made for the Plasma Incinerator and Plasma Pistol weapons of this unit have +1.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nDutiful Tenacity DETACHMENT\nWhenever an attack whose S beats the T of a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is aimed at it, that\nattack takes -1 to its wound roll.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle."
+  },
+  {
+   "name": "Ballistus Dreadnought",
+   "points": 150,
+   "parts": [
+    {
+     "name": "Ballistus Dreadnought",
+     "role": null,
+     "points": null,
+     "models": [
+      {
+       "name": "Ballistus Dreadnought",
+       "M": "8\"",
+       "T": "10",
+       "SV": "2+",
+       "W": "12",
+       "LD": "6+",
+       "OC": "4"
+      }
+     ],
+     "weapons": [
+      {
+       "name": "Ballistus Lascannon",
+       "type": "ranged",
+       "count": 1,
+       "range": "48\"",
+       "A": "2",
+       "BS": "3+",
+       "S": "12",
+       "AP": "-3",
+       "D": "D3+3",
+       "keywords": [],
+       "notes": [],
+       "profile_of": null
+      },
+      {
+       "name": "Ballistus Missile Launcher - Frag",
+       "type": "ranged",
+       "count": 1,
+       "range": "48\"",
+       "A": "D6+6",
+       "BS": "3+",
+       "S": "5",
+       "AP": "-1",
+       "D": "1",
+       "keywords": [
+        "BLAST 2"
+       ],
+       "notes": [],
+       "profile_of": "Ballistus Missile Launcher"
+      },
+      {
+       "name": "Ballistus Missile Launcher - Krak",
+       "type": "ranged",
+       "count": 1,
+       "range": "48\"",
+       "A": "2",
+       "BS": "3+",
+       "S": "10",
+       "AP": "-2",
+       "D": "D3+3",
+       "keywords": [],
+       "notes": [],
+       "profile_of": "Ballistus Missile Launcher"
+      },
+      {
+       "name": "Storm Bolters",
+       "type": "ranged",
+       "count": 1,
+       "range": "24\"",
+       "A": "4",
+       "BS": "3+",
+       "S": "5",
+       "AP": "-1",
+       "D": "1",
+       "keywords": [
+        "RAPID FIRE 4"
+       ],
+       "notes": [],
+       "profile_of": null
+      },
+      {
+       "name": "Armoured Feet",
+       "type": "melee",
+       "count": 1,
+       "range": "Melee",
+       "A": "5",
+       "WS": "3+",
+       "S": "7",
+       "AP": "0",
+       "D": "1",
+       "keywords": [],
+       "notes": [],
+       "profile_of": null
+      }
+     ]
+    }
+   ],
+   "keywords": "VEHICLE DREADNOUGHT IMPERIUM WALKER BALLISTUS DREADNOUGHT DEATHWING",
+   "faction_keywords": "ADEPTUS ASTARTES",
+   "other": {},
+   "abilities_text": "Ballistus Strike\nRanged attacks made by this unit have [SUSTAINED HITS 1] against an enemy unit within 24\" of it.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle.\nDamaged 4\nWhenever this model attacks with 1-4 wounds remaining, subtract 1 from the Hit roll.\nDeadly Demise D3\nRoll one D6 if this model is destroyed, before it leaves play: a 6 deals D3 mortal wounds to every unit within 6\"."
+  },
+  {
+   "name": "Gladiator Lancer",
+   "points": 160,
+   "parts": [
+    {
+     "name": "Gladiator Lancer",
+     "role": null,
+     "points": null,
+     "models": [
+      {
+       "name": "Gladiator Lancer",
+       "M": "10\"",
+       "T": "10",
+       "SV": "3+",
+       "W": "12",
+       "LD": "6+",
+       "OC": "3"
+      }
+     ],
+     "weapons": [
+      {
+       "name": "Defensive Array",
+       "type": "ranged",
+       "count": 1,
+       "range": "24\"",
+       "A": "6",
+       "BS": "3+",
+       "S": "5",
+       "AP": "-1",
+       "D": "1",
+       "keywords": [
+        "RAPID FIRE 6"
+       ],
+       "notes": [],
+       "profile_of": null
+      },
+      {
+       "name": "Laser Destroyer",
+       "type": "ranged",
+       "count": 1,
+       "range": "72\"",
+       "A": "2",
+       "BS": "3+",
+       "S": "14",
+       "AP": "-3",
+       "D": "D6+3",
+       "keywords": [
+        "HEAVY"
+       ],
+       "notes": [],
+       "profile_of": null
+      },
+      {
+       "name": "Armoured Hull",
+       "type": "melee",
+       "count": 1,
+       "range": "Melee",
+       "A": "3",
+       "WS": "4+",
+       "S": "6",
+       "AP": "0",
+       "D": "1",
+       "keywords": [],
+       "notes": [],
+       "profile_of": null
+      }
+     ]
+    }
+   ],
+   "keywords": "VEHICLE FRAME IMPERIUM SMOKE GLADIATOR LANCER",
+   "faction_keywords": "ADEPTUS ASTARTES",
+   "other": {},
+   "abilities_text": "Aquilon Optics\nWhere their target is a MONSTER/VEHICLE unit, ranged attacks made by this unit can:\n• Re-roll 1 hit roll.\n• Re-roll 1 wound roll.\n• Re-roll 1 damage roll.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle.\nDamaged 4\nWhenever this model attacks with 1-4 wounds remaining, subtract 1 from the Hit roll.\nDeadly Demise D3\nRoll one D6 if this model is destroyed, before it leaves play: a 6 deals D3 mortal wounds to every unit within 6\"."
+  },
+  {
+   "name": "Rhino",
+   "points": 70,
+   "parts": [
+    {
+     "name": "Rhino",
+     "role": null,
+     "points": null,
+     "models": [
+      {
+       "name": "Rhino",
+       "M": "12\"",
+       "T": "9",
+       "SV": "3+",
+       "W": "10",
+       "LD": "6+",
+       "OC": "2"
+      }
+     ],
+     "weapons": [
+      {
+       "name": "Storm Bolter",
+       "type": "ranged",
+       "count": 1,
+       "range": "24\"",
+       "A": "2",
+       "BS": "3+",
+       "S": "5",
+       "AP": "-1",
+       "D": "1",
+       "keywords": [
+        "RAPID FIRE 2"
+       ],
+       "notes": [],
+       "profile_of": null
+      },
+      {
+       "name": "Armoured Tracks",
+       "type": "melee",
+       "count": 1,
+       "range": "Melee",
+       "A": "3",
+       "WS": "4+",
+       "S": "6",
+       "AP": "0",
+       "D": "1",
+       "keywords": [],
+       "notes": [],
+       "profile_of": null
+      }
+     ]
+    }
+   ],
+   "keywords": "VEHICLE DEDICATED TRANSPORT FRAME IMPERIUM SMOKE TRANSPORT RHINO",
+   "faction_keywords": "ADEPTUS ASTARTES",
+   "other": {},
+   "label": "A",
+   "abilities_text": "Veiling Smoke (Once per phase, per unit)\nThis unit can be targeted with the Smokescreen stratagem however many times that stratagem has already been used this\nphase. Where it is:\n• That use has a -1 CP cost.\n• Other units remain free to be targeted with that stratagem this phase.\nTransport\nUp to 12 ADEPTUS ASTARTES INFANTRY models can be transported by this model; GRAVIS/JUMP PACK/TERMINATOR\nmodels cannot.\nFiring Deck 2\nWhenever this Transport is chosen to shoot, up to 2 models embarked within it from units that have not shot yet this phase\ncan shoot with this model's profile.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle.\nDeadly Demise D3\nRoll one D6 if this model is destroyed, before it leaves play: a 6 deals D3 mortal wounds to every unit within 6\"."
+  },
+  {
+   "name": "Rhino",
+   "points": 70,
+   "parts": [
+    {
+     "name": "Rhino",
+     "role": null,
+     "points": null,
+     "models": [
+      {
+       "name": "Rhino",
+       "M": "12\"",
+       "T": "9",
+       "SV": "3+",
+       "W": "10",
+       "LD": "6+",
+       "OC": "2"
+      }
+     ],
+     "weapons": [
+      {
+       "name": "Storm Bolter",
+       "type": "ranged",
+       "count": 1,
+       "range": "24\"",
+       "A": "2",
+       "BS": "3+",
+       "S": "5",
+       "AP": "-1",
+       "D": "1",
+       "keywords": [
+        "RAPID FIRE 2"
+       ],
+       "notes": [],
+       "profile_of": null
+      },
+      {
+       "name": "Armoured Tracks",
+       "type": "melee",
+       "count": 1,
+       "range": "Melee",
+       "A": "3",
+       "WS": "4+",
+       "S": "6",
+       "AP": "0",
+       "D": "1",
+       "keywords": [],
+       "notes": [],
+       "profile_of": null
+      }
+     ]
+    }
+   ],
+   "keywords": "VEHICLE DEDICATED TRANSPORT FRAME IMPERIUM SMOKE TRANSPORT RHINO",
+   "faction_keywords": "ADEPTUS ASTARTES",
+   "other": {},
+   "label": "B",
+   "abilities_text": "Veiling Smoke (Once per phase, per unit)\nThis unit can be targeted with the Smokescreen stratagem however many times that stratagem has already been used this\nphase. Where it is:\n• That use has a -1 CP cost.\n• Other units remain free to be targeted with that stratagem this phase.\nTransport\nUp to 12 ADEPTUS ASTARTES INFANTRY models can be transported by this model; GRAVIS/JUMP PACK/TERMINATOR\nmodels cannot.\nFiring Deck 2\nWhenever this Transport is chosen to shoot, up to 2 models embarked within it from units that have not shot yet this phase\ncan shoot with this model's profile.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle.\nDeadly Demise D3\nRoll one D6 if this model is destroyed, before it leaves play: a 6 deals D3 mortal wounds to every unit within 6\"."
+  }
+ ],
+ "rules_text": "Space Marine Chapters ARMY RULE\n• When an ADEPTUS ASTARTES unit's datasheet carries a second Faction keyword, that keyword names the unit's Chapter:\nMarneus Calgar carries ADEPTUS ASTARTES and ULTRAMARINES, so he is an Ultramarine.\n• An army may include units from one Chapter only.\nCombat Doctrines ARMY RULE\nSelect one combat doctrine below at the start of your Command phase. The doctrine you pick stays active until your next\nCommand phase begins, for every friendly ADEPTUS ASTARTES unit carrying this ability.\nASSAULT DOCTRINE\nThis unit stays eligible to declare a charge in a turn in which it made an advance move.\nDEVASTATOR DOCTRINE\nThis unitʼs ranged attacks have [ASSAULT].\nTACTICAL DOCTRINE\nThis unit stays eligible to shoot and eligible to declare a charge in a turn in which it made a fall-back move.\nExcept where a rule says otherwise, each combat doctrine can be selected once per battle, and a unit can have only one\ncombat doctrine active at a time: a rule that makes a doctrine active for a unit ends whichever doctrine that unit had before.\nTranshuman Strategist ARMY RULE\nAt the start of the battle round, gain 1CP if your WARLORD carries this ability.\nLibrarius ARMY RULE\nA psyker level of 1 or higher is carried by every ADEPTUS ASTARTES PSYKER unit with this ability, stated among that unit's\nabilities, and a psychic level of 1 or higher belongs to each psychic ability, stated in its name.\nAcross one battle round, the psychic abilities a friendly ADEPTUS ASTARTES PSYKER unit uses may add up to no more than\nthat PSYKER unit's own psyker level.\nExample: a psyker level 3 PSYKER unit can spend a battle round on:\n• Three abilities of psychic level 1.\n• One of psychic level 1 with one of psychic level 2.\n• A single ability of psychic level 3.\nDutiful Tenacity WRATH OF THE ROCK\nWhenever an attack whose S beats the T of a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is aimed at it, that\nattack takes -1 to its wound roll.\nAssault Mastery ASSAULT BRETHREN\nThe assault doctrine can be selected one additional time per battle.\nDETACHMENT STRATAGEMS\nTactical Mastery 1 CP Relics of the Dark Age 1 CP\nWRATH OF THE ROCK · YOUR TURN · COMMAND WRATH OF THE ROCK · YOUR TURN · SHOOT\nWHEN: Your Command phase. WHEN: Your Shooting phase, as you pick a friendly ADEPTUS\nTARGET: One friendly DEATHWING/RAVENWING unit. ASTARTES INFANTRY/MOUNTED unit to shoot.\nEFFECT: Pick one combat doctrine: it is your unit's active doctrine TARGET: That ADEPTUS ASTARTES INFANTRY/MOUNTED unit.\nuntil your next Command phase begins. EFFECT: Ranged attacks made by your unit gain +2 S.\nIn Sacrifice, Victory 1 CP Lion's Will 1 CP\nWRATH OF THE ROCK · EITHER TURN · ANY PHASE WRATH OF THE ROCK · EITHER TURN · COMMAND\nWHEN: Any phase, once a friendly DEATHWING/RAVENWING unit WHEN: Command phase.\nstanding within range of an objective has been destroyed. TARGET: One friendly ADEPTUS ASTARTES unit standing within\nTARGET: That DEATHWING/RAVENWING unit, which this range of an objective.\nstratagem may be used on even though it has been destroyed. EFFECT: Your unit has +1 OC until the end of the turn.\nEFFECT: Pick one objective: • With no enemy units (excluding\nAIRCRAFT units) within range of it. • Held by your unit as the\nprevious phase ended. That objective is secured.\nArmour of Contempt 1 CP Duty in Death 1 CP\nASSAULT BRETHREN · EITHER TURN · SHOOT / FIGHT ASSAULT BRETHREN · EITHER TURN · FIGHT\nWHEN: When an enemy unit targets a friendly ADEPTUS WHEN: Fight phase, when an enemy unit picks a friendly\nASTARTES unit, in your opponent's Shooting phase or in the Fight ADEPTUS ASTARTES unit as its target.\nphase. TARGET: That ADEPTUS ASTARTES unit.\nTARGET: That ADEPTUS ASTARTES unit. EFFECT: Whenever a model of your unit is destroyed while your\nEFFECT: Until that enemy unit has attacked, attacks that target unit has yet to be selected to fight this phase, one D6 is rolled\nyour unit have -1 AP. (with +1 to that roll while your unit has the assault doctrine\nactive): • A 4+ keeps that model on the battlefield for the moment;\nit is removed once your unit has fought, or when the phase ends,\nwhichever comes first.\nGene-wrought Might 1 CP Inescapable Justice 1 CP\nASSAULT BRETHREN · EITHER TURN · FIGHT WRATH OF THE ROCK · EITHER TURN · FIGHT\nWHEN: Fight phase, when you select a friendly ADEPTUS WHEN: The Fight phase, when you select a friendly ADEPTUS\nASTARTES unit to fight. ASTARTES unit to fight.\nTARGET: That ADEPTUS ASTARTES unit. TARGET: That ADEPTUS ASTARTES unit.\nEFFECT: Your unit's melee attacks gain [LANCE], or gain [LANCE] EFFECT: Your unit's melee attacks have [PRECISION].\nand +1 AP instead while your unit has the assault doctrine active.\nCORE STRATAGEMS\nInsane Bravery 1 CP Explosives 1 CP\nCORE · YOUR TURN · COMMAND CORE · YOUR TURN · SHOOT\nWHEN: In your Command phase's Battle-shock step, right before WHEN: Your Shooting phase.\na friendly unit takes a Battle-shock test. TARGET: One friendly unengaged Grenades unit that is eligible to\nTARGET: That unit. shoot and didn't Advance this turn.\nEFFECT: That Battle-shock test passes automatically. EFFECT: Pick one Grenades model in your unit, then one\nRESTRICTIONS: Cannot be used more than once per battle. unengaged enemy unit visible to it within 8\". Roll six D6: each 4+\ndeals that enemy unit 1 mortal wound.\nCrushing Impact 1 CP Command Re-roll 1 CP\nCORE · YOUR TURN · CHARGE CORE · EITHER TURN · ANY PHASE\nWHEN: Your Charge phase, just after a friendly Monster or Vehicle WHEN: Any phase, just after an Advance, Charge, Damage,\nunit ends a Charge move. Hazard, Hit, Save or Wound roll, or a roll for the number of attacks\nTARGET: That Monster or Vehicle unit. a weapon generates, is made for a friendly unit or model.\nEFFECT: Pick one enemy unit engaged with your unit and one of TARGET: That unit or model.\nyour models engaged with it. Roll a number of D6 equal to that EFFECT: Re-roll that roll. Where several dice were rolled together,\nmodel's Toughness: each 1 deals your unit 1 mortal wound; each pick one of them to re-roll (except Charge rolls, which are re-\n5+ deals the enemy unit 1 mortal wound (6 at most per unit). rolled in full).\nEpic Challenge 1 CP Fire Overwatch 1 CP\nCORE · EITHER TURN · FIGHT CORE · OPPONENTʼS TURN · MOVEMENT\nWHEN: Fight phase, just after a friendly Character unit is picked to WHEN: End of your opponent's Movement phase.\nfight. TARGET: One friendly unengaged unit (excluding Titanic units).\nTARGET: That Character unit. EFFECT: Your unit shoots using snap shooting: attacks hit only on\nEFFECT: Pick one Character model in your unit. Its melee weapons unmodified Hit rolls of 6, only one visible enemy unit within 24\"\nhave [Precision] until the end of the phase. may be targeted, and Hit rolls can't be re-rolled.\nRapid Ingress 1 CP Smokescreen 1 CP\nCORE · OPPONENTʼS TURN · MOVEMENT CORE · OPPONENTʼS TURN · SHOOT\nWHEN: End of your opponent's Movement phase. WHEN: Start of your opponent's Shooting phase.\nTARGET: One friendly unit that is in Strategic Reserves (excluding TARGET: One friendly Smoke unit.\nAircraft). EFFECT: Until the end of the phase, attacks targeting your Smoke\nEFFECT: Your unit makes an ingress move. unit (or a unit it screens from the attacker) grant the target the\nRESTRICTIONS: Cannot be used during the first battle round. Benefit of Cover.\nHeroic Intervention 1 CP Counter-offensive 2 CP\nCORE · OPPONENTʼS TURN · CHARGE CORE · OPPONENTʼS TURN · FIGHT\nWHEN: End of your opponent's Charge phase. WHEN: During the Fight step of your opponent's Fight phase, as\nTARGET: One friendly unengaged unit within 12\" of an enemy unit soon as an enemy unit is done resolving its attacks.\n(a Vehicle only qualifies if it is a Character or Walker unit). TARGET: One friendly unit that is eligible to fight.\nEFFECT: Resolve a Charge with your unit. Before the Charge roll, EFFECT: Your unit has Fights First until the end of the phase, and\nchoose Leap to Defend (only enemies that charged this phase it must be the next unit picked to fight.\nmay be targeted) or Into the Fray (+1CP; the Charge roll caps at 6\nand any enemy within 6\" may be targeted).",
+ "warnings": []
+}
