@@ -1,0 +1,1186 @@
+{
+ "title": "Dark Angels",
+ "subtitle": "Wrath of the Rock + Assault Brethren · 2000/2000 pts · Take and Hold",
+ "edition": "11th Edition",
+ "sequence": [
+  {
+   "name": "Pre-game",
+   "items": [
+    "1. Muster armies: Force Disposition = Take and Hold. Lion El'Jonson must be your Warlord",
+    "2. Determine mission (from both players' dispositions)",
+    "3. Determine deployment map",
+    "4. (Optional) Twist",
+    "5. Create the battlefield",
+    "6. Deploy and finish pre-game, in your mission pack's order:",
+    "  ↳ Decide reserves: Lion (Deep Strike); Belial + Knights (Deep Strike, or Strategic Reserves to use the Teleport Homer)",
+    "  ↳ Embark: Rhinos carry up to 12 non-Terminator infantry each (see Rhino card)",
+    "  ↳ Before the battle: place Belial's Teleport Homer token"
+   ]
+  },
+  {
+   "name": "Each turn",
+   "items": [
+    "Start of battle round: +1 CP (Lion's Transhuman Strategist)",
+    "1. Start of turn step",
+    "2. Command: +1 CP each → pick combat doctrine; Lion picks 2 Primarch abilities + Master Strategist → Battle-shock step",
+    "3. Movement: Azrael names a unit + doctrine; Techmarine blesses a vehicle → then reinforcements",
+    "4. Shooting (cover = -1 BS; Bolter Discipline near objectives)",
+    "5. Charge (chargers get Fights First until end of turn)",
+    "6. Fight: Fights First (Lion always), then the rest, alternating",
+    "7. End of turn: non-mission rules, then mission scoring"
+   ]
+  },
+  {
+   "name": "Planning rules",
+   "items": [
+    "One stratagem per unit per phase",
+    "Each doctrine once per battle (Assault twice): only 4 doctrine picks in total",
+    "A unit has only one doctrine at a time, except the Lion (Master Strategist adds one on top)",
+    "Deep Strike: >8\" from enemies. Rapid Ingress: not in battle round 1",
+    "Ingress: wholly within 6\" of an edge, >8\" from enemies; not in enemy deployment zone before round 3"
+   ]
+  }
+ ],
+ "plan": {
+  "disposition": "Take and Hold",
+  "summary": "Hold the middle with tough, hard-to-wound infantry, kill the enemy units that contest it with the Lion and Deathwing, and time your four doctrine picks for the turns you charge.",
+  "sections": [
+   {
+    "name": "Deployment",
+    "items": [
+     "Intercessors (OC 10 each) on home objectives: Bolter Discipline gives them +1 to hit while an objective is in range anyway.",
+     "Gladiator Lancer and Ballistus on long firing lanes; Techmarine within 3\" of one of them (Lone Operative there, and the Blessing next Movement).",
+     "Rhino A: Azrael + Companions (7). Rhino B: Hellblasters + Ezekiel (6), or an Intercessor squad. Rhinos can't carry the Knights (Terminators).",
+     "Lion: deploy within 3\" of a Dark Angels infantry unit for Lone Operative, or keep him in Deep Strike.",
+     "Belial's Teleport Homer goes in midfield cover where enemies won't walk within 1\" of it."
+    ]
+   },
+   {
+    "name": "Scoring",
+    "items": [
+     "Biggest OC: Azrael's unit 13, Intercessors 10 each, Belial's unit 6, Hellblasters 5, Lion and Ballistus 4 each.",
+     "Lion's Will (1CP, either Command phase): +1 OC on a unit already on an objective. In Sacrifice, Victory (1CP): when a Deathwing unit dies on an objective, keep it secured.",
+     "Doctrine timing: you get Assault twice, then Devastator and Tactical once each. Save Assault for the rounds you charge onto the midfield.",
+     "Intercessors are your action-doers: Tactical Mainstay lets them act while engaged or battle-shocked and still shoot.",
+     "Save Insane Bravery (once per battle) for Azrael's unit or an Intercessor squad holding a key objective."
+    ]
+   }
+  ],
+  "note": "Mission names from the disposition matrix; exact scoring is on your mission card. Share it for tailored tips.",
+  "matchups": [
+   {
+    "yours": "Take and Hold",
+    "rows": [
+     {
+      "opponent": "Take and Hold",
+      "you_play": "Battlefield Dominance",
+      "they_play": "Battlefield Dominance",
+      "tip": "Mirror: you both want objectives. Save Assault doctrine for the turn you charge onto theirs."
+     },
+     {
+      "opponent": "Purge the Foe",
+      "you_play": "Immovable Object",
+      "they_play": "Unstoppable Force",
+      "tip": "They want kills: Ezekiel and the Techmarine are easy ones; keep them in Rhinos or behind units."
+     },
+     {
+      "opponent": "Disruption",
+      "you_play": "Determined Acquisition",
+      "they_play": "Death Trap",
+      "tip": "They'll work in your territory: keep an Intercessor squad home; Tactical Mainstay lets it act while engaged."
+     },
+     {
+      "opponent": "Reconnaissance",
+      "you_play": "Purge and Secure",
+      "they_play": "Reconnaissance Sweep",
+      "tip": "They'll spread thin: Lancer (72\") and Ballistus pick off lone scouts; Mist-wreathed sends the Lion after far ones."
+     },
+     {
+      "opponent": "Priority Assets",
+      "you_play": "Inescapable Dominion",
+      "they_play": "Secure Asset",
+      "tip": "They'll commit to key points: Belial's Teleport Homer drop or the Lion lands on whatever they commit."
+     }
+    ]
+   }
+  ]
+ },
+ "reminders": [
+  {
+   "when": "Before the battle",
+   "items": [
+    "Lion is Warlord; place the Teleport Homer; declare reserves; embark Rhinos"
+   ]
+  },
+  {
+   "when": "Start of each battle round",
+   "items": [
+    "+1 CP from the Lion (Transhuman Strategist)"
+   ]
+  },
+  {
+   "when": "Start of your Command phase",
+   "items": [
+    "Pick a combat doctrine (Assault ×2, Devastator ×1, Tactical ×1 for the whole game)",
+    "Lion: pick 2 Primarch abilities; Master Strategist gives him a second doctrine",
+    "Strat: Lion's Will (+1 OC) or Tactical Mastery (Deathwing unit's own doctrine)"
+   ]
+  },
+  {
+   "when": "Your Movement phase",
+   "items": [
+    "Azrael: name a unit within 9\" and a doctrine (before that unit moves)",
+    "Techmarine: Blessing on a vehicle within 3\" (heal D3, ignore modifiers)"
+   ]
+  },
+  {
+   "when": "Your Shooting phase",
+   "items": [
+    "Intercessors: +1 to hit if an objective is in range of them or the target",
+    "Strat: Relics of the Dark Age (+2 S) on Hellblasters"
+   ]
+  },
+  {
+   "when": "Opponent's turn",
+   "items": [
+    "Start of their Shooting: Smokescreen on a Rhino (-1 CP) or the Lancer",
+    "End of their Movement (round 2+): Rapid Ingress + Teleport Homer for Belial's unit (0 CP)",
+    "Ezekiel targeted: Whispers of the Shadow Forest (-1 to hit him)"
+   ]
+  }
+ ],
+ "phases": [
+  {
+   "name": "Before the battle",
+   "items": [
+    "Lion — must be your Warlord (Supreme Commander)",
+    "Belial + Knights — place one Teleport Homer token anywhere (once per battle)",
+    "Lion, Belial + Knights — may start in Deep Strike reserves"
+   ]
+  },
+  {
+   "name": "Start of each battle round",
+   "items": [
+    "Lion (Warlord) — Transhuman Strategist: gain 1 CP"
+   ]
+  },
+  {
+   "name": "Command phase",
+   "items": [
+    "Army — pick one combat doctrine for every unit: Assault (charge after Advancing), Devastator (ranged weapons get Assault), Tactical (shoot and charge after Falling Back)",
+    "Lion — pick 2 of: Mist-wreathed Shadow Realms (go to Strategic Reserves, ingress this turn's Movement, even round 1), Martial Exemplar (6\" aura: melee re-roll hit and wound 1s), No Hiding From the Watchers (6\" aura: FNP 5+ vs psychic and mortal wounds)",
+    "Lion — Master Strategist: one extra doctrine for him only, on top of the army's",
+    "Strat: Tactical Mastery (1CP) — a Deathwing unit gets its own doctrine until your next Command phase",
+    "Strat: Lion's Will (1CP, either turn) — unit in range of an objective gets +1 OC until end of turn",
+    "Strat: Insane Bravery (1CP) — auto-pass a Battle-shock test (once per battle)"
+   ]
+  },
+  {
+   "name": "Movement phase",
+   "items": [
+    "Azrael — Masterful Tactician: name one Adeptus Astartes unit within 9\" he can see and a doctrine; it replaces that unit's doctrine until your next Command phase",
+    "Techmarine — start or end of his move: a vehicle within 3\" heals D3 and can ignore hit/wound modifiers until your next Movement phase",
+    "Lion — ingress move if he used Mist-wreathed Shadow Realms",
+    "Reinforcements — Deep Strike >8\" from enemies"
+   ]
+  },
+  {
+   "name": "Shooting phase",
+   "items": [
+    "Intercessors — Bolter Discipline: +1 to hit if an objective is in range of them or of the target",
+    "Ballistus — Sustained Hits 1 vs targets within 24\"",
+    "Gladiator Lancer — vs Monsters/Vehicles: re-roll one hit, one wound and one damage roll",
+    "Ezekiel — Engulfing Fear (psychic level 1): roll D6 (1 = he's battle-shocked), then an enemy within 12\" takes a Battle-shock test at -1",
+    "Rhinos — Firing Deck 2: two passengers shoot with the Rhino's storm bolter",
+    "Strat: Relics of the Dark Age (1CP) — an infantry unit's ranged attacks get +2 S",
+    "Strat: Explosives (1CP) — Explosives unit, enemy within 8\": six D6, each 4+ = 1 mortal wound"
+   ]
+  },
+  {
+   "name": "Charge phase",
+   "items": [
+    "Assault doctrine — units that Advanced can still charge",
+    "Strat: Crushing Impact (1CP) — Lion, Ballistus or Lancer after a charge: roll D6 equal to its T, 5+ = MW to enemy (max 6), 1s hurt you"
+   ]
+  },
+  {
+   "name": "Fight phase",
+   "items": [
+    "Lion — always Fights First",
+    "Azrael's unit — +1 to hit vs Characters; Belial's unit — +1 to wound vs Characters",
+    "Strat: Gene-wrought Might (1CP) — melee gets Lance, plus +1 AP if the unit has Assault doctrine",
+    "Strat: Inescapable Justice (1CP) — melee gets Precision",
+    "Strat: Duty in Death (1CP, when enemy targets your unit) — dying models stay to fight on 4+ (+1 with Assault doctrine)",
+    "Belial — killed before his unit fights: 2+ and he still fights"
+   ]
+  },
+  {
+   "name": "Opponent's turn (reactive)",
+   "items": [
+    "Strat: Rapid Ingress (1CP; 0CP with Teleport Homer) — end of their Movement, not round 1; Belial's unit arrives within 3\" of the token, >8\" from enemies",
+    "Strat: Fire Overwatch (1CP) — end of their Movement: snap-shoot, hit on 6s",
+    "Strat: Smokescreen (1CP) — start of their Shooting: Rhino or Lancer gets cover; Rhinos -1 CP and ignore other uses",
+    "Strat: Armour of Contempt (1CP) — when an enemy shoots/fights your unit: its attacks get 1 worse AP",
+    "Ezekiel — Whispers of the Shadow Forest (psychic level 1): when targeted, D6 (1 = battle-shocked), attacks vs him -1 to hit this phase",
+    "Strat: Heroic Intervention (1CP) — end of their Charge: unit within 12\" charges (Ballistus qualifies: Walker)",
+    "Strat: Counter-offensive (2CP) — their Fight phase: your unit fights next"
+   ]
+  },
+  {
+   "name": "Always on",
+   "items": [
+    "Dutiful Tenacity — attacks with Strength above your infantry's Toughness get -1 to wound",
+    "Azrael's unit — Stealth; melee attacks vs them -1 to hit; 4+ invulnerable",
+    "Deathwing Knights — every attack vs them has -1 Damage",
+    "Lion — -1 to wound if S beats T10; FNP 4+ vs psychic and mortal wounds; Lone Operative within 3\" of DA infantry",
+    "Ezekiel — psyker level 3: psychic abilities used in a battle round add up to at most 3 levels",
+    "Damaged 4 (Ballistus, Lancer) — -1 to hit at 1-4 wounds left; the Techmarine's Blessing cancels it",
+    "One stratagem per unit per phase"
+   ]
+  }
+ ],
+ "units": [
+  {
+   "name": "Azrael + Inner Circle Companions",
+   "pts": "330 pts",
+   "role": "Midfield objective holder (OC 13) and character killer; Azrael also hands out doctrines.",
+   "stats": [
+    [
+     "Azrael",
+     "6\"",
+     "5",
+     "2+",
+     "4+",
+     "6",
+     "6+",
+     "1",
+     ""
+    ],
+    [
+     "6× Inner Circle Companions",
+     "6\"",
+     "5",
+     "3+",
+     "4+",
+     "3",
+     "6+",
+     "2",
+     ""
+    ]
+   ],
+   "weapons": [
+    [
+     "Lion's Wrath (Azrael)",
+     "24\"",
+     "2",
+     "2+",
+     "8",
+     "-3",
+     "2",
+     "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1, Sustained Hits 1",
+     "Infantry, elites"
+    ],
+    [
+     "The Sword of Secrets (Azrael)",
+     "Melee",
+     "6",
+     "2+",
+     "6",
+     "-4",
+     "2",
+     "Devastating Wounds, Sustained Hits 1",
+     "Elites, characters"
+    ],
+    [
+     "Heavy Bolt Pistol ×6",
+     "18\"",
+     "1",
+     "3+",
+     "5",
+     "-1",
+     "1",
+     "Close-Quarters, Sustained Hits 1",
+     "Light infantry"
+    ],
+    [
+     "Calibanite Greatsword - Strike ×6",
+     "Melee",
+     "4",
+     "3+",
+     "6",
+     "-2",
+     "2",
+     "Lethal Hits, Sustained Hits 1",
+     "Elite infantry"
+    ],
+    [
+     "Calibanite Greatsword - Sweep ×6",
+     "Melee",
+     "5",
+     "3+",
+     "6",
+     "-2",
+     "1",
+     "Sustained Hits 2, Sustained Hits 1",
+     "Infantry squads"
+    ]
+   ],
+   "abilities": [
+    [
+     "ALWAYS",
+     "Supreme Grand Master: the whole unit's attacks have Sustained Hits 1"
+    ],
+    [
+     "ALWAYS",
+     "Braziers of Judgement: Stealth, and melee attacks vs the unit -1 to hit"
+    ],
+    [
+     "ALWAYS",
+     "Enmity for the Unworthy: +1 to hit vs Character units"
+    ],
+    [
+     "MOVE",
+     "Masterful Tactician: name one Astartes unit within 9\" + a doctrine; replaces its doctrine until your next Command phase"
+    ],
+    [
+     "ONCE",
+     "Watcher in the Dark: first time the unit suffers a mortal wound, it gains FNP 4+ vs mortal wounds"
+    ],
+    [
+     "ALWAYS",
+     "4+ invulnerable save (Lion Helm / Companions)"
+    ]
+   ],
+   "watch": "Azrael's doctrine REPLACES the unit's current one (one doctrine per unit). Name it before that unit moves if it's Assault.",
+   "footer": "Infantry · Epic Hero · Deathwing · Explosives · Leader: Azrael → Inner Circle Companions · Can ride a Rhino (7 models)",
+   "_source": {
+    "abilities_text": "Masterful Tactician AZRAEL\nIn your Movement phase you may name up to one friendly ADEPTUS ASTARTES unit that is visible and no more than 9\"\nfrom this model, then name one combat doctrine. It stays active for that unit until your next Command phase begins.\nSupreme Grand Master AZRAEL\nAttacks made by this unit have [SUSTAINED HITS 1].\nWatcher in the Dark AZRAEL\n(Once per battle, per unit) Should this unit suffer a mortal wound in any phase, it may summon a Watcher in the Dark,\ngaining Feel No Pain 4+ against mortal wounds.\nThe Lion Helm AZRAEL\nA 4+ invulnerable save protects this unit.\nBraziers of Judgement INNER CIRCLE COMPANIONS\n• Stealth is carried by this unit.\n• Melee attacks aimed at it take -1 to their hit rolls.\nEnmity for the Unworthy INNER CIRCLE COMPANIONS\nWhenever this unit attacks a CHARACTER unit, those attacks take +1 to their hit rolls.\nInvulnerable Save 4+ LEADER · INNER CIRCLE COMPANIONS\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nTranshuman Strategist ARMY RULE\nFull text under Rules and Stratagems.\nDutiful Tenacity DETACHMENT\nWhenever an attack whose S beats the T of a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is aimed at it, that\nattack takes -1 to its wound roll.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle.\nLeader AZRAEL\nAttached to: Inner Circle Companions.",
+    "keywords": "CHARACTER EPIC HERO INFANTRY EXPLOSIVES IMPERIUM TACTICUS CHAPTER MASTER DEATHWING AZRAEL INNER CIRCLE COMPANIONS",
+    "other": {
+     "conferred weapon keywords": [
+      "[SUSTAINED HITS 1] Supreme Grand Master · Azrael"
+     ],
+     "what each model carries": [
+      "Azrael Lion's Wrath, The Sword of Secrets",
+      "6× Inner Circle Companions Heavy Bolt Pistol, Calibanite Greatsword"
+     ]
+    }
+   },
+   "flag": "Greatsword Sweep shows Sustained Hits 2 and 1: the 1 comes from Azrael, use the better (2). Check whether Azrael's pick counts as that doctrine's once-per-battle use, and whether Watcher in the Dark lasts the rest of the battle."
+  },
+  {
+   "name": "Belial + Deathwing Knights",
+   "pts": "355 pts",
+   "role": "Deep Strike melee bricks that kill Characters and tanks; -1 Damage makes them very hard to kill.",
+   "stats": [
+    [
+     "Belial",
+     "5\"",
+     "6",
+     "2+",
+     "4+",
+     "6",
+     "6+",
+     "1",
+     ""
+    ],
+    [
+     "4× Deathwing Knight",
+     "5\"",
+     "6",
+     "2+",
+     "4+",
+     "4",
+     "6+",
+     "1",
+     ""
+    ],
+    [
+     "Knight Master",
+     "5\"",
+     "6",
+     "2+",
+     "4+",
+     "4",
+     "6+",
+     "1",
+     ""
+    ]
+   ],
+   "weapons": [
+    [
+     "Master-Crafted Storm Bolter (Belial)",
+     "24\"",
+     "2",
+     "2+",
+     "5",
+     "-1",
+     "2",
+     "Precision",
+     "Characters (Precision)"
+    ],
+    [
+     "The Sword of Silence (Belial)",
+     "Melee",
+     "6",
+     "2+",
+     "6",
+     "-3",
+     "2",
+     "",
+     "Elite infantry"
+    ],
+    [
+     "Great Weapon of the Unforgiven",
+     "Melee",
+     "5",
+     "2+",
+     "6",
+     "-2",
+     "2",
+     "Devastating Wounds, Sustained Hits 1",
+     "Elites, characters"
+    ],
+    [
+     "Mace of Absolution ×4",
+     "Melee",
+     "4",
+     "2+",
+     "6",
+     "-2",
+     "2",
+     "Anti-Monster 4+, Anti-Vehicle 4+",
+     "Vehicles, monsters"
+    ]
+   ],
+   "abilities": [
+    [
+     "ALWAYS",
+     "Inner Circle: every attack vs this unit has -1 Damage (Tactical Dreadnought Fortitude can't target it)"
+    ],
+    [
+     "ALWAYS",
+     "Grand Master of the Deathwing: +1 to wound vs Character units"
+    ],
+    [
+     "BEFORE",
+     "Teleport Homer: place a token; with Rapid Ingress it costs 1 less CP, arrive within 3\" of it and >8\" from enemies"
+    ],
+    [
+     "BEFORE",
+     "Deep Strike: arrive >8\" from enemies"
+    ],
+    [
+     "FIGHT",
+     "Strikes of Retribution: if Belial dies before his unit fights, on 2+ he stays and fights"
+    ]
+   ],
+   "watch": "The token is lost if an enemy ends a move within 1\" of it. Rapid Ingress can't be used in battle round 1.",
+   "footer": "Infantry · Terminator · Epic Hero · Deathwing · Deep Strike · Leader: Belial → Deathwing Knights · Can't ride a Rhino",
+   "_source": {
+    "abilities_text": "Grand Master of the Deathwing BELIAL\nAgainst an enemy CHARACTER unit, the attacks this unit makes have +1 to wound rolls.\nStrikes of Retribution BELIAL\nWhen this model is destroyed in the Fight phase before this unit has been selected to fight, roll one D6: on a 2+ it stays on\nthe battlefield until this unit has fought or the phase ends, whichever comes first, and is then removed.\nDeep Strike BELIAL + DEATHWING KNIGHTS\nYou may hold this unit in Reserves rather than deploying it on the battlefield; when it arrives, it is set up wherever you like,\nprovided every enemy model is more than 8\" away horizontally.\nInner Circle DEATHWING KNIGHTS\n• Each attack against this unit gets -1 D.\n• The Tactical Dreadnought Fortitude stratagem can never target this unit.\nTeleport Homer (Once per battle, per unit) DEATHWING KNIGHTS\nBefore the battle begins, you can put one Teleport Homer token for this unit anywhere on the battlefield. While it is there:\n• When this unit is the target of the Rapid Ingress stratagem, you can spend the token: that use costs -1 CP, and the unit\nhas to arrive within 3\" of the token and not within 8\" of any enemy unit. The token then leaves the battlefield.\n• If an enemy unit finishes a move within 1\" of the token, the token leaves the battlefield.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nTranshuman Strategist ARMY RULE\nFull text under Rules and Stratagems.\nDutiful Tenacity DETACHMENT\nWhenever an attack whose S beats the T of a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is aimed at it, that\nattack takes -1 to its wound roll.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle.\nLeader BELIAL\nAttached to: Deathwing Knights.",
+    "keywords": "CHARACTER EPIC HERO INFANTRY CAPTAIN IMPERIUM TERMINATOR DEATHWING BELIAL DEATHWING KNIGHTS",
+    "other": {
+     "what each model carries": [
+      "Belial Master-Crafted Storm Bolter, The Sword of Silence",
+      "4× Deathwing Knight Mace of Absolution",
+      "Knight Master Great Weapon of the Unforgiven"
+     ]
+    }
+   },
+   "flag": "Rapid Ingress needs the unit in Strategic Reserves; check whether Deep Strike reserves count, or put the unit in Strategic Reserves to use the token."
+  },
+  {
+   "name": "Ezekiel",
+   "pts": "110 pts",
+   "role": "Solo psyker that snipes Characters and battle-shocks enemy units holding objectives.",
+   "stats": [
+    [
+     "Ezekiel",
+     "6\"",
+     "5",
+     "2+",
+     "4+",
+     "5",
+     "6+",
+     "1",
+     "FNP 4+*"
+    ]
+   ],
+   "weapons": [
+    [
+     "Mind Wipe - Witchfire",
+     "12\"",
+     "1",
+     "2+",
+     "6",
+     "-2",
+     "D6",
+     "Devastating Wounds, Precision, Psychic, Close-Quarters",
+     "Characters"
+    ],
+    [
+     "Mind Wipe - Focused Witchfire",
+     "12\"",
+     "1",
+     "2+",
+     "6",
+     "-2",
+     "D3+3",
+     "Anti-Character 4+, Devastating Wounds, Hazardous, Precision, Psychic, Close-Quarters",
+     "Characters"
+    ],
+    [
+     "The Deliverer",
+     "12\"",
+     "1",
+     "2+",
+     "5",
+     "-1",
+     "2",
+     "Close-Quarters, Precision",
+     "Characters"
+    ],
+    [
+     "Traitor's Bane",
+     "Melee",
+     "5▲",
+     "2+",
+     "6",
+     "-3",
+     "2",
+     "Psychic, Precision · ▲ Book of Salvation (modifier already applied to marked value)",
+     "Characters"
+    ]
+   ],
+   "abilities": [
+    [
+     "SHOOT",
+     "Mind Wipe: Precision psychic shot; Focused version is Anti-Character 4+ but Hazardous"
+    ],
+    [
+     "SHOOT",
+     "Engulfing Fear (level 1): D6 (1 = Ezekiel battle-shocked), then an enemy within 12\" tests Battle-shock at -1"
+    ],
+    [
+     "REACT",
+     "Whispers of the Shadow Forest (level 1): when targeted, D6 (1 = battle-shocked); attacks vs him -1 to hit this phase"
+    ],
+    [
+     "ALWAYS",
+     "Psyker level 3: abilities used per battle round add up to at most 3 levels"
+    ],
+    [
+     "ALWAYS",
+     "Psychic Hood: FNP 4+ vs psychic attacks and mortal wounds"
+    ]
+   ],
+   "watch": "Traitor's Bane A 5 already includes Book of Salvation's +1. Don't add it again.",
+   "footer": "Infantry · Epic Hero · Psyker · Librarian · Deathwing · Explosives",
+   "_source": {
+    "abilities_text": "Engulfing Fear\n(Psychic level 1) In your Shooting phase, while this unit is not battle-shocked, you can roll one D6 as a psychic roll for it; a\n1 leaves this unit battle-shocked. Then pick one enemy unit within 12\" of this model: it takes a Battle-shock test, with 1\nsubtracted from the result.\nBook of Salvation\nMelee attacks made by this unit have +1 A.\nPsychic Hood\nModels in this unit have the Feel No Pain 4+ ability against Psychic Attacks and against mortal wounds.\nChief Librarian\n(Psyker level 3) The psychic abilities on this datasheet, in the Psychic Abilities section, belong to this model.\nWhispers of the Shadow Forest\n(Psychic level 1) Where an enemy unit targets this unit, a psychic roll is open to it while it is not battle-shocked. Roll one\nD6; if you do:\n• A 1 leaves this unit battle-shocked.\n• Until the phase ends, subtract 1 from the Hit roll for every attack that targets this unit.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nDutiful Tenacity DETACHMENT\nWhenever an attack whose S beats the T of a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is aimed at it, that\nattack takes -1 to its wound roll.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle.",
+    "keywords": "CHARACTER EPIC HERO INFANTRY EXPLOSIVES IMPERIUM PSYKER LIBRARIAN TACTICUS DEATHWING EZEKIEL",
+    "other": {}
+   },
+   "flag": "Ezekiel has no Leader attachment on this list, so he's a lone 5-wound Character. Keep him behind your units or in a Rhino. Mind Wipe's psychic level isn't printed."
+  },
+  {
+   "name": "Lion El'Jonson",
+   "pts": "415 pts",
+   "role": "Your Warlord and best unit: kills anything in melee, buffs nearby units, and redeploys from reserves.",
+   "stats": [
+    [
+     "Lion El'Jonson",
+     "8\"",
+     "10",
+     "2+",
+     "3+",
+     "16",
+     "5+",
+     "4",
+     "FNP 4+*"
+    ]
+   ],
+   "weapons": [
+    [
+     "Arma Luminis - Bolt",
+     "18\"",
+     "4",
+     "2+",
+     "6",
+     "-2",
+     "2",
+     "Close-Quarters",
+     "Infantry"
+    ],
+    [
+     "Arma Luminis - Plasma",
+     "18\"",
+     "2",
+     "2+",
+     "10",
+     "-3",
+     "3",
+     "Close-Quarters",
+     "Vehicles, elites"
+    ],
+    [
+     "Fealty - Strike",
+     "Melee",
+     "8",
+     "2+",
+     "12",
+     "-4",
+     "4",
+     "Lethal Hits",
+     "Vehicles, monsters"
+    ],
+    [
+     "Fealty - Sweep",
+     "Melee",
+     "12",
+     "2+",
+     "6",
+     "-3",
+     "2",
+     "Cleave 2, Sustained Hits 1",
+     "Infantry"
+    ]
+   ],
+   "abilities": [
+    [
+     "CMD",
+     "Primarch of the First Legion: pick 2 of Mist-wreathed Shadow Realms, Martial Exemplar, No Hiding From the Watchers"
+    ],
+    [
+     "CMD",
+     "Master Strategist: an extra doctrine for him, on top of the one he has"
+    ],
+    [
+     "CMD",
+     "Mist-wreathed: if unengaged, go to Strategic Reserves and ingress in this turn's Movement (works in round 1)"
+    ],
+    [
+     "ALWAYS",
+     "Martial Exemplar (6\" aura): DA units re-roll melee hit and wound 1s"
+    ],
+    [
+     "ALWAYS",
+     "Emperor's Shield: -1 to wound if S beats T10; FNP 4+ vs psychic and mortal wounds"
+    ],
+    [
+     "ALWAYS",
+     "Lone Operative while within 3\" of DA infantry; Fights First; Deep Strike"
+    ]
+   ],
+   "watch": "Both Primarch picks happen at the START of your Command phase and last a full round. Take Mist-wreathed only on turns you want to jump.",
+   "footer": "Monster · Epic Hero · Primarch · Warlord (required) · Transhuman Strategist: +1 CP each round",
+   "_source": {
+    "abilities_text": "Dark Angels Bodyguard\nThis unit has Lone Operative for as long as it stands within 3\" of a friendly DARK ANGELS INFANTRY unit.\nMaster Strategist\nIn your Command phase you may use this ability. Doing so picks one combat doctrine for this unit, on top of any other it\nalready has, and it lasts until your next Command phase begins.\nPrimarch of the First Legion\nAs your Command phase begins, pick up to two abilities from the Primarch of the First Legion section. This model keeps\nthe pair until your Command phase begins again.\nThe Emperor's Shield\nAn attack aimed at this unit whose S beats this unitʼs T takes -1 to its wound roll.\nThe Watchers\nModels in this unit have the Feel No Pain 4+ ability against Psychic Attacks and against mortal wounds.\nMist-wreathed Shadow Realms PRIMARCH OF THE FIRST LEGION\nIn your Command phase, this ability is open to you while this unit is unengaged:\n• This unit goes into strategic reserves.\n• In your next Movement phase (your first turn included), an ingress move is open to it.\nMartial Exemplar (Aura) PRIMARCH OF THE FIRST LEGION\nAny friendly DARK ANGELS unit standing within 6\" of this unit may, with its melee attacks:\n• Re-roll hit rolls of 1.\n• Re-roll wound rolls of 1.\nNo Hiding From the Watchers (Aura) PRIMARCH OF THE FIRST LEGION\nAny friendly DARK ANGELS unit standing within 6\" of this unit gains Feel No Pain 5+ against psychic attacks and mortal\nwounds.\nSupreme Commander\nThis model must be your Warlord if you include it in your army.\nDeep Strike\nYou may hold this unit in Reserves rather than deploying it on the battlefield; when it arrives, it is set up wherever you like,\nprovided every enemy model is more than 8\" away horizontally.\nFights First\nThis unit fights in the Fight phase's Fights First step when it is eligible to fight and each of its models has Fights First.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nTranshuman Strategist ARMY RULE\nFull text under Rules and Stratagems.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle.",
+    "keywords": "CHARACTER EPIC HERO MONSTER IMPERIUM PRIMARCH MOBILE LION EL'JONSON",
+    "other": {}
+   },
+   "flag": "Cleave 2 (Fealty Sweep) and Mobile aren't defined on the sheet; check your rules. Unclear if Master Strategist's pick uses up that doctrine's once-per-battle use."
+  },
+  {
+   "name": "Techmarine",
+   "pts": "55 pts",
+   "role": "Vehicle support: heals and steadies the Lancer or Ballistus.",
+   "stats": [
+    [
+     "Techmarine",
+     "6\"",
+     "5",
+     "2+",
+     "—",
+     "4",
+     "6+",
+     "1",
+     ""
+    ]
+   ],
+   "weapons": [
+    [
+     "Forge Bolter",
+     "24\"",
+     "3",
+     "2+",
+     "5",
+     "-1",
+     "2",
+     "Sustained Hits 1",
+     "Infantry"
+    ],
+    [
+     "Grav-Pistol",
+     "12\"",
+     "2",
+     "2+",
+     "2",
+     "-1",
+     "3",
+     "Anti-Vehicle 2+, Close-Quarters",
+     "Vehicles"
+    ],
+    [
+     "Omnissian Power Axe and Servo-Arm",
+     "Melee",
+     "5",
+     "3+",
+     "6",
+     "-2",
+     "2",
+     "",
+     "Elite infantry"
+    ]
+   ],
+   "abilities": [
+    [
+     "MOVE",
+     "Blessings of the Omnissiah: start or end of his move, vehicle within 3\" heals D3 and can ignore hit/wound modifiers until your next Movement"
+    ],
+    [
+     "ALWAYS",
+     "Lone Operative while within 3\" of a friendly Astartes vehicle"
+    ]
+   ],
+   "watch": "Ignoring modifiers cancels Damaged -1 to hit. It's optional, so keep your positive bonuses.",
+   "footer": "Infantry · Character · Explosives · Can ride a Rhino",
+   "_source": {
+    "abilities_text": "Techmarine\nThis model has Lone Operative while it is within 3\" of a friendly ADEPTUS ASTARTES VEHICLE unit.\nBlessings of the Omnissiah\nAt the start or the end of this unit's move in your Movement phase, pick one friendly ADEPTUS ASTARTES VEHICLE model\nthat is within 3\" of this model:\n• The VEHICLE model heals D3 wounds.\n• Until your next Movement phase begins, attacks by the VEHICLE model can ignore modifiers to their hit rolls and wound\nrolls.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nDutiful Tenacity DETACHMENT\nWhenever an attack whose S beats the T of a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is aimed at it, that\nattack takes -1 to its wound roll.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle.",
+    "keywords": "INFANTRY CHARACTER EXPLOSIVES IMPERIUM TACTICUS TECHMARINE",
+    "other": {}
+   },
+   "flag": "Cover in 11th worsens BS rather than the hit roll; check whether 'ignore hit roll modifiers' also cancels cover."
+  },
+  {
+   "name": "Intercessor Squad ×2 (A & B)",
+   "pts": "85 pts each",
+   "role": "Objective holders (OC 10 each) and action-doers.",
+   "stats": [
+    [
+     "5× Intercessor Squad",
+     "6\"",
+     "5",
+     "3+",
+     "—",
+     "2",
+     "6+",
+     "2",
+     ""
+    ]
+   ],
+   "weapons": [
+    [
+     "Bolt Pistol ×5",
+     "12\"",
+     "1",
+     "3+",
+     "5",
+     "-1",
+     "1",
+     "Close-Quarters",
+     "Light infantry"
+    ],
+    [
+     "Bolt Rifle - Focused Fire ×5",
+     "24\"",
+     "1",
+     "3+",
+     "6",
+     "-1",
+     "2",
+     "Heavy, Rapid Fire 1",
+     "Elite infantry"
+    ],
+    [
+     "Bolt Rifle - Saturation ×5",
+     "24\"",
+     "2",
+     "3+",
+     "5",
+     "-1",
+     "1",
+     "Assault, Rapid Fire 1",
+     "Light infantry"
+    ],
+    [
+     "Knives and Fists ×5",
+     "Melee",
+     "3",
+     "3+",
+     "5",
+     "0",
+     "1",
+     "",
+     "Chaff"
+    ]
+   ],
+   "abilities": [
+    [
+     "SHOOT",
+     "Bolter Discipline: +1 to hit if an objective is in range of this unit or the target"
+    ],
+    [
+     "ALWAYS",
+     "Tactical Mainstay: can start actions while engaged or battle-shocked, and still shoot"
+    ]
+   ],
+   "watch": "Bolt Rifle: Focused Fire is Heavy (stand still), Saturation is Assault (move and shoot); pick per shooting.",
+   "footer": "Infantry · Battleline · Explosives · 85 pts each · Rhino-able",
+   "_source": {
+    "abilities_text": "Bolter Discipline\nDuring your Shooting phase, the ranged attacks of this unit have +1 to hit rolls where either of the following holds:\n• An objective is within range of this unit.\n• An objective is within range of the target of that attack.\nTactical Mainstay\n• This unit stays eligible to start an action while engaged/battle-shocked.\n• An action this unit has started does not stop it being eligible to shoot.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nDutiful Tenacity DETACHMENT\nWhenever an attack whose S beats the T of a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is aimed at it, that\nattack takes -1 to its wound roll.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle.",
+    "keywords": "INFANTRY BATTLELINE EXPLOSIVES IMPERIUM TACTICUS INTERCESSOR SQUAD",
+    "other": {
+     "what each model carries": [
+      "Intercessor Sergeant Bolt Pistol, Bolt Rifle, Knives and Fists",
+      "4× Intercessor Bolt Pistol, Bolt Rifle, Knives and Fists"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Hellblaster Squad",
+   "pts": "115 pts",
+   "role": "Plasma squad that kills elite infantry and light vehicles at 24\".",
+   "stats": [
+    [
+     "5× Hellblaster Squad",
+     "6\"",
+     "5",
+     "3+",
+     "—",
+     "2",
+     "6+",
+     "1",
+     ""
+    ]
+   ],
+   "weapons": [
+    [
+     "Bolt Pistol ×5",
+     "12\"",
+     "1",
+     "3+",
+     "5",
+     "-1",
+     "1",
+     "Close-Quarters",
+     "Light infantry"
+    ],
+    [
+     "Plasma Incinerator - Standard ×5",
+     "24\"",
+     "2",
+     "3+",
+     "7",
+     "-2",
+     "2",
+     "Assault, Rapid Fire 1",
+     "Elite infantry"
+    ],
+    [
+     "Plasma Incinerator - Supercharge ×5",
+     "24\"",
+     "2",
+     "3+",
+     "8",
+     "-3",
+     "2",
+     "Assault, Hazardous, Rapid Fire 1",
+     "Heavy infantry, light vehicles"
+    ],
+    [
+     "Ceramite Fists ×5",
+     "Melee",
+     "3",
+     "3+",
+     "5",
+     "0",
+     "1",
+     "",
+     "Chaff"
+    ]
+   ],
+   "abilities": [
+    [
+     "SHOOT",
+     "Rites of Thermal Appeasement: +1 to Hazard rolls for their plasma (supercharge is safer)"
+    ],
+    [
+     "SHOOT",
+     "Combo: Relics of the Dark Age (+2 S) makes supercharge S10"
+    ]
+   ],
+   "watch": "Rapid Fire 1 doubles shots within 12\". Ride a Rhino in and get out within range.",
+   "footer": "Infantry · Explosives · Rhino-able",
+   "_source": {
+    "abilities_text": "Rites of Thermal Appeasement\nHazard rolls made for the Plasma Incinerator and Plasma Pistol weapons of this unit have +1.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nDutiful Tenacity DETACHMENT\nWhenever an attack whose S beats the T of a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is aimed at it, that\nattack takes -1 to its wound roll.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle.",
+    "keywords": "INFANTRY EXPLOSIVES IMPERIUM TACTICUS HELLBLASTER SQUAD",
+    "other": {
+     "what each model carries": [
+      "Hellblaster Sergeant Bolt Pistol, Plasma Incinerator, Ceramite Fists",
+      "4× Hellblaster Bolt Pistol, Plasma Incinerator, Ceramite Fists"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Ballistus Dreadnought",
+   "pts": "150 pts",
+   "role": "Long-range anti-tank walker; OC 4.",
+   "stats": [
+    [
+     "Ballistus Dreadnought",
+     "8\"",
+     "10",
+     "2+",
+     "—",
+     "12",
+     "6+",
+     "4",
+     ""
+    ]
+   ],
+   "weapons": [
+    [
+     "Ballistus Lascannon",
+     "48\"",
+     "2",
+     "3+",
+     "12",
+     "-3",
+     "D3+3",
+     "",
+     "Vehicles, monsters"
+    ],
+    [
+     "Ballistus Missile Launcher - Frag",
+     "48\"",
+     "D6+6",
+     "3+",
+     "5",
+     "-1",
+     "1",
+     "Blast 2",
+     "Hordes"
+    ],
+    [
+     "Ballistus Missile Launcher - Krak",
+     "48\"",
+     "2",
+     "3+",
+     "10",
+     "-2",
+     "D3+3",
+     "",
+     "Vehicles, monsters"
+    ],
+    [
+     "Storm Bolters",
+     "24\"",
+     "4",
+     "3+",
+     "5",
+     "-1",
+     "1",
+     "Rapid Fire 4",
+     "Light infantry"
+    ],
+    [
+     "Armoured Feet",
+     "Melee",
+     "5",
+     "3+",
+     "7",
+     "0",
+     "1",
+     "",
+     "Chaff"
+    ]
+   ],
+   "abilities": [
+    [
+     "SHOOT",
+     "Ballistus Strike: Sustained Hits 1 on ranged attacks vs targets within 24\""
+    ],
+    [
+     "ALWAYS",
+     "Damaged 4: -1 to hit at 1-4 wounds left"
+    ],
+    [
+     "ALWAYS",
+     "Deadly Demise D3"
+    ]
+   ],
+   "watch": "Within 24\" his lascannon and krak missiles get Sustained Hits. Keep the Techmarine near him for heals.",
+   "footer": "Vehicle · Walker · Dreadnought · Deathwing (Tactical Mastery and In Sacrifice, Victory work)",
+   "_source": {
+    "abilities_text": "Ballistus Strike\nRanged attacks made by this unit have [SUSTAINED HITS 1] against an enemy unit within 24\" of it.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle.\nDamaged 4\nWhenever this model attacks with 1-4 wounds remaining, subtract 1 from the Hit roll.\nDeadly Demise D3\nRoll one D6 if this model is destroyed, before it leaves play: a 6 deals D3 mortal wounds to every unit within 6\".",
+    "keywords": "VEHICLE DREADNOUGHT IMPERIUM WALKER BALLISTUS DREADNOUGHT DEATHWING",
+    "other": {}
+   }
+  },
+  {
+   "name": "Gladiator Lancer",
+   "pts": "160 pts",
+   "role": "72\" tank killer; stays back with clear lines of sight.",
+   "stats": [
+    [
+     "Gladiator Lancer",
+     "10\"",
+     "10",
+     "3+",
+     "—",
+     "12",
+     "6+",
+     "3",
+     ""
+    ]
+   ],
+   "weapons": [
+    [
+     "Defensive Array",
+     "24\"",
+     "6",
+     "3+",
+     "5",
+     "-1",
+     "1",
+     "Rapid Fire 6",
+     "Light infantry"
+    ],
+    [
+     "Laser Destroyer",
+     "72\"",
+     "2",
+     "3+",
+     "14",
+     "-3",
+     "D6+3",
+     "Heavy",
+     "Vehicles, monsters"
+    ],
+    [
+     "Armoured Hull",
+     "Melee",
+     "3",
+     "4+",
+     "6",
+     "0",
+     "1",
+     "",
+     "Chaff"
+    ]
+   ],
+   "abilities": [
+    [
+     "SHOOT",
+     "Aquilon Optics: vs Monsters/Vehicles, re-roll one hit, one wound and one damage roll"
+    ],
+    [
+     "ALWAYS",
+     "Damaged 4: -1 to hit at 1-4 wounds left"
+    ],
+    [
+     "ALWAYS",
+     "Deadly Demise D3; Smoke (Smokescreen)"
+    ]
+   ],
+   "watch": "Laser Destroyer is Heavy: stand still for +1 to hit. The Techmarine's Blessing then also cancels Damaged.",
+   "footer": "Vehicle · Smoke · Deadly Demise D3",
+   "_source": {
+    "abilities_text": "Aquilon Optics\nWhere their target is a MONSTER/VEHICLE unit, ranged attacks made by this unit can:\n• Re-roll 1 hit roll.\n• Re-roll 1 wound roll.\n• Re-roll 1 damage roll.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle.\nDamaged 4\nWhenever this model attacks with 1-4 wounds remaining, subtract 1 from the Hit roll.\nDeadly Demise D3\nRoll one D6 if this model is destroyed, before it leaves play: a 6 deals D3 mortal wounds to every unit within 6\".",
+    "keywords": "VEHICLE FRAME IMPERIUM SMOKE GLADIATOR LANCER",
+    "other": {}
+   },
+   "flag": "Aquilon Optics probably means one re-roll of each per shooting; check the wording."
+  },
+  {
+   "name": "Rhino ×2 (A & B)",
+   "pts": "70 pts each",
+   "role": "Fast transports for infantry and Smoke cover; OC 2 each.",
+   "stats": [
+    [
+     "Rhino",
+     "12\"",
+     "9",
+     "3+",
+     "—",
+     "10",
+     "6+",
+     "2",
+     ""
+    ]
+   ],
+   "weapons": [
+    [
+     "Storm Bolter",
+     "24\"",
+     "2",
+     "3+",
+     "5",
+     "-1",
+     "1",
+     "Rapid Fire 2",
+     "Light infantry"
+    ],
+    [
+     "Armoured Tracks",
+     "Melee",
+     "3",
+     "4+",
+     "6",
+     "0",
+     "1",
+     "",
+     "Chaff"
+    ]
+   ],
+   "abilities": [
+    [
+     "ALWAYS",
+     "Transport 12 Astartes infantry; no Gravis, Jump Pack or Terminator models"
+    ],
+    [
+     "SHOOT",
+     "Firing Deck 2: two passengers shoot using the Rhino's profile"
+    ],
+    [
+     "REACT",
+     "Veiling Smoke: Smokescreen costs 1 less CP and can be used even if already used this phase"
+    ],
+    [
+     "ALWAYS",
+     "Deadly Demise D3"
+    ]
+   ],
+   "watch": "Belial and the Knights are Terminators and can't ride. Azrael + Companions (7) and Hellblasters + Ezekiel (6) can.",
+   "footer": "Vehicle · Dedicated Transport · Smoke · 70 pts each",
+   "_source": {
+    "abilities_text": "Veiling Smoke (Once per phase, per unit)\nThis unit can be targeted with the Smokescreen stratagem however many times that stratagem has already been used this\nphase. Where it is:\n• That use has a -1 CP cost.\n• Other units remain free to be targeted with that stratagem this phase.\nTransport\nUp to 12 ADEPTUS ASTARTES INFANTRY models can be transported by this model; GRAVIS/JUMP PACK/TERMINATOR\nmodels cannot.\nFiring Deck 2\nWhenever this Transport is chosen to shoot, up to 2 models embarked within it from units that have not shot yet this phase\ncan shoot with this model's profile.\nCombat Doctrines ARMY RULE\nFull text under Rules and Stratagems.\nAssault Mastery DETACHMENT\nThe assault doctrine can be selected one additional time per battle.\nDeadly Demise D3\nRoll one D6 if this model is destroyed, before it leaves play: a 6 deals D3 mortal wounds to every unit within 6\".",
+    "keywords": "VEHICLE DEDICATED TRANSPORT FRAME IMPERIUM SMOKE TRANSPORT RHINO",
+    "other": {}
+   }
+  }
+ ],
+ "_army": {
+  "name": "Dark Angels Army",
+  "header": "Dark Angels · Wrath of the Rock + Assault Brethren · Strike Force · 2000/2000 pts · 3/3 DP · Take and Hold · Battle-legal · Mustered 4 Nov 2026",
+  "points": "2000/2000 pts",
+  "detachment_points": "3/3 DP",
+  "faction": "Dark Angels",
+  "detachments": [
+   "Wrath of the Rock",
+   "Assault Brethren"
+  ],
+  "battle_size": "Strike Force",
+  "disposition": "Take and Hold",
+  "disposition_options": [
+   "Take and Hold"
+  ]
+ },
+ "_rules_text": "Space Marine Chapters ARMY RULE\n• When an ADEPTUS ASTARTES unit's datasheet carries a second Faction keyword, that keyword names the unit's Chapter:\nMarneus Calgar carries ADEPTUS ASTARTES and ULTRAMARINES, so he is an Ultramarine.\n• An army may include units from one Chapter only.\nCombat Doctrines ARMY RULE\nSelect one combat doctrine below at the start of your Command phase. The doctrine you pick stays active until your next\nCommand phase begins, for every friendly ADEPTUS ASTARTES unit carrying this ability.\nASSAULT DOCTRINE\nThis unit stays eligible to declare a charge in a turn in which it made an advance move.\nDEVASTATOR DOCTRINE\nThis unitʼs ranged attacks have [ASSAULT].\nTACTICAL DOCTRINE\nThis unit stays eligible to shoot and eligible to declare a charge in a turn in which it made a fall-back move.\nExcept where a rule says otherwise, each combat doctrine can be selected once per battle, and a unit can have only one\ncombat doctrine active at a time: a rule that makes a doctrine active for a unit ends whichever doctrine that unit had before.\nTranshuman Strategist ARMY RULE\nAt the start of the battle round, gain 1CP if your WARLORD carries this ability.\nLibrarius ARMY RULE\nA psyker level of 1 or higher is carried by every ADEPTUS ASTARTES PSYKER unit with this ability, stated among that unit's\nabilities, and a psychic level of 1 or higher belongs to each psychic ability, stated in its name.\nAcross one battle round, the psychic abilities a friendly ADEPTUS ASTARTES PSYKER unit uses may add up to no more than\nthat PSYKER unit's own psyker level.\nExample: a psyker level 3 PSYKER unit can spend a battle round on:\n• Three abilities of psychic level 1.\n• One of psychic level 1 with one of psychic level 2.\n• A single ability of psychic level 3.\nDutiful Tenacity WRATH OF THE ROCK\nWhenever an attack whose S beats the T of a friendly ADEPTUS ASTARTES INFANTRY/MOUNTED unit is aimed at it, that\nattack takes -1 to its wound roll.\nAssault Mastery ASSAULT BRETHREN\nThe assault doctrine can be selected one additional time per battle.\nDETACHMENT STRATAGEMS\nTactical Mastery 1 CP Relics of the Dark Age 1 CP\nWRATH OF THE ROCK · YOUR TURN · COMMAND WRATH OF THE ROCK · YOUR TURN · SHOOT\nWHEN: Your Command phase. WHEN: Your Shooting phase, as you pick a friendly ADEPTUS\nTARGET: One friendly DEATHWING/RAVENWING unit. ASTARTES INFANTRY/MOUNTED unit to shoot.\nEFFECT: Pick one combat doctrine: it is your unit's active doctrine TARGET: That ADEPTUS ASTARTES INFANTRY/MOUNTED unit.\nuntil your next Command phase begins. EFFECT: Ranged attacks made by your unit gain +2 S.\nIn Sacrifice, Victory 1 CP Lion's Will 1 CP\nWRATH OF THE ROCK · EITHER TURN · ANY PHASE WRATH OF THE ROCK · EITHER TURN · COMMAND\nWHEN: Any phase, once a friendly DEATHWING/RAVENWING unit WHEN: Command phase.\nstanding within range of an objective has been destroyed. TARGET: One friendly ADEPTUS ASTARTES unit standing within\nTARGET: That DEATHWING/RAVENWING unit, which this range of an objective.\nstratagem may be used on even though it has been destroyed. EFFECT: Your unit has +1 OC until the end of the turn.\nEFFECT: Pick one objective: • With no enemy units (excluding\nAIRCRAFT units) within range of it. • Held by your unit as the\nprevious phase ended. That objective is secured.\nArmour of Contempt 1 CP Duty in Death 1 CP\nASSAULT BRETHREN · EITHER TURN · SHOOT / FIGHT ASSAULT BRETHREN · EITHER TURN · FIGHT\nWHEN: When an enemy unit targets a friendly ADEPTUS WHEN: Fight phase, when an enemy unit picks a friendly\nASTARTES unit, in your opponent's Shooting phase or in the Fight ADEPTUS ASTARTES unit as its target.\nphase. TARGET: That ADEPTUS ASTARTES unit.\nTARGET: That ADEPTUS ASTARTES unit. EFFECT: Whenever a model of your unit is destroyed while your\nEFFECT: Until that enemy unit has attacked, attacks that target unit has yet to be selected to fight this phase, one D6 is rolled\nyour unit have -1 AP. (with +1 to that roll while your unit has the assault doctrine\nactive): • A 4+ keeps that model on the battlefield for the moment;\nit is removed once your unit has fought, or when the phase ends,\nwhichever comes first.\nGene-wrought Might 1 CP Inescapable Justice 1 CP\nASSAULT BRETHREN · EITHER TURN · FIGHT WRATH OF THE ROCK · EITHER TURN · FIGHT\nWHEN: Fight phase, when you select a friendly ADEPTUS WHEN: The Fight phase, when you select a friendly ADEPTUS\nASTARTES unit to fight. ASTARTES unit to fight.\nTARGET: That ADEPTUS ASTARTES unit. TARGET: That ADEPTUS ASTARTES unit.\nEFFECT: Your unit's melee attacks gain [LANCE], or gain [LANCE] EFFECT: Your unit's melee attacks have [PRECISION].\nand +1 AP instead while your unit has the assault doctrine active.\nCORE STRATAGEMS\nInsane Bravery 1 CP Explosives 1 CP\nCORE · YOUR TURN · COMMAND CORE · YOUR TURN · SHOOT\nWHEN: In your Command phase's Battle-shock step, right before WHEN: Your Shooting phase.\na friendly unit takes a Battle-shock test. TARGET: One friendly unengaged Grenades unit that is eligible to\nTARGET: That unit. shoot and didn't Advance this turn.\nEFFECT: That Battle-shock test passes automatically. EFFECT: Pick one Grenades model in your unit, then one\nRESTRICTIONS: Cannot be used more than once per battle. unengaged enemy unit visible to it within 8\". Roll six D6: each 4+\ndeals that enemy unit 1 mortal wound.\nCrushing Impact 1 CP Command Re-roll 1 CP\nCORE · YOUR TURN · CHARGE CORE · EITHER TURN · ANY PHASE\nWHEN: Your Charge phase, just after a friendly Monster or Vehicle WHEN: Any phase, just after an Advance, Charge, Damage,\nunit ends a Charge move. Hazard, Hit, Save or Wound roll, or a roll for the number of attacks\nTARGET: That Monster or Vehicle unit. a weapon generates, is made for a friendly unit or model.\nEFFECT: Pick one enemy unit engaged with your unit and one of TARGET: That unit or model.\nyour models engaged with it. Roll a number of D6 equal to that EFFECT: Re-roll that roll. Where several dice were rolled together,\nmodel's Toughness: each 1 deals your unit 1 mortal wound; each pick one of them to re-roll (except Charge rolls, which are re-\n5+ deals the enemy unit 1 mortal wound (6 at most per unit). rolled in full).\nEpic Challenge 1 CP Fire Overwatch 1 CP\nCORE · EITHER TURN · FIGHT CORE · OPPONENTʼS TURN · MOVEMENT\nWHEN: Fight phase, just after a friendly Character unit is picked to WHEN: End of your opponent's Movement phase.\nfight. TARGET: One friendly unengaged unit (excluding Titanic units).\nTARGET: That Character unit. EFFECT: Your unit shoots using snap shooting: attacks hit only on\nEFFECT: Pick one Character model in your unit. Its melee weapons unmodified Hit rolls of 6, only one visible enemy unit within 24\"\nhave [Precision] until the end of the phase. may be targeted, and Hit rolls can't be re-rolled.\nRapid Ingress 1 CP Smokescreen 1 CP\nCORE · OPPONENTʼS TURN · MOVEMENT CORE · OPPONENTʼS TURN · SHOOT\nWHEN: End of your opponent's Movement phase. WHEN: Start of your opponent's Shooting phase.\nTARGET: One friendly unit that is in Strategic Reserves (excluding TARGET: One friendly Smoke unit.\nAircraft). EFFECT: Until the end of the phase, attacks targeting your Smoke\nEFFECT: Your unit makes an ingress move. unit (or a unit it screens from the attacker) grant the target the\nRESTRICTIONS: Cannot be used during the first battle round. Benefit of Cover.\nHeroic Intervention 1 CP Counter-offensive 2 CP\nCORE · OPPONENTʼS TURN · CHARGE CORE · OPPONENTʼS TURN · FIGHT\nWHEN: End of your opponent's Charge phase. WHEN: During the Fight step of your opponent's Fight phase, as\nTARGET: One friendly unengaged unit within 12\" of an enemy unit soon as an enemy unit is done resolving its attacks.\n(a Vehicle only qualifies if it is a Character or Walker unit). TARGET: One friendly unit that is eligible to fight.\nEFFECT: Resolve a Charge with your unit. Before the Charge roll, EFFECT: Your unit has Fights First until the end of the phase, and\nchoose Leap to Defend (only enemies that charged this phase it must be the next unit picked to fight.\nmay be targeted) or Into the Fray (+1CP; the Charge roll caps at 6\nand any enemy within 6\" may be targeted).",
+ "_warnings": [],
+ "sequence_note": "Steps from the 11th Edition core rules; follow your mission pack where noted."
+}

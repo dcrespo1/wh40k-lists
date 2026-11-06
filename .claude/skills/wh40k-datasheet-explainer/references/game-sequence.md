@@ -12,7 +12,9 @@ For a 10th Edition game, say so and give only the five phases.
    list is submitted, and picked in secret). Builder exports often show it in the
    header (e.g. "Take and Hold").
 2. **Determine mission.** The two players' dispositions together decide the
-   mission, so the two players may score in different ways.
+   missions. Each player plays the one in their own row of the matrix
+   (`assets/disposition-matrix.json`), so the two players usually score in
+   different ways.
 3. **Determine deployment** (deployment map).
 4. *(Optional)* **Twist.**
 5. **Create the battlefield.**

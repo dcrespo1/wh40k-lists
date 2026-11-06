@@ -1,8 +1,8 @@
 # wh40k-lists
 
 Warhammer 40,000 army lists, plus a Claude skill that turns a list into a
-printable reference pack: a game-sequence card, a game plan, a phase-by-phase
-cheat sheet and a card for every unit.
+printable reference pack: a game-sequence card, a game plan, a matchups card,
+a phase-by-phase cheat sheet and a card for every unit.
 
 ## Quick start
 
@@ -23,6 +23,32 @@ Claude picks up the skill automatically. The finished pack lands in
 `40k-output/` as HTML and PDF.
 
 Supported: macOS (tested) and Debian/Ubuntu Linux. On Windows, use WSL.
+
+## Example output
+
+[`40k-output-example/`](40k-output-example/) holds a finished pack for
+`lists/dark-angels.pdf` (2000 pts, Wrath of the Rock + Assault Brethren, Take
+and Hold). Open
+[`dark-angels-reference.pdf`](40k-output-example/dark-angels-reference.pdf) to
+see what you'll get. It runs to 10 pages:
+
+| Pages | What's on them |
+|-------|----------------|
+| 1 | **Game sequence**: pre-game steps and turn order, with this army's own steps slotted in (Teleport Homer, reserves, embarking Rhinos), and **Game plan**: deployment and scoring tips for Take and Hold, built from these units |
+| 2 | **Matchups**: for each disposition your opponent might pick, the mission you play, the mission they play, and a tip for playing into them |
+| 3–4 | **Turn cheat sheet**: a "Don't forget" box, then every ability and stratagem sorted by the phase it happens in |
+| 5–10 | **Unit cards**: stats and weapons as printed on the sheet, what each weapon is good against, abilities tagged by timing, and a "Check" box for anything uncertain |
+
+The other files show the steps in between:
+
+| File | What it is |
+|------|------------|
+| `dark-angels.parsed.json` | Output of `just parse`: every stat line, weapon, ability and army rule read from the PDF |
+| `dark-angels.json` | The pack JSON after Claude filled in the explanations. `just render` turns it into the HTML and PDF |
+| `dark-angels-reference.html` | The same pack as a web page. It prints fine from a browser |
+
+Your own packs go to `40k-output/`, which is gitignored. The example folder is
+committed, so regenerate it by hand if the skill's output changes.
 
 ## What gets installed
 
@@ -66,8 +92,9 @@ lists/<faction>/                       army list exports (mostly warmind.online 
   SKILL.md                             what Claude follows
   references/                          rules guidance, output formats
   scripts/                             PDF parsing and card rendering
-  assets/                              card template
+  assets/                              card template, disposition matrix
 40k-output/                            generated packs (gitignored, safe to delete)
+40k-output-example/                    a finished Dark Angels pack (committed)
 setup                                  one-step install
 justfile                               shortcut commands
 pyproject.toml, uv.lock                Python packages, locked versions

@@ -22,6 +22,8 @@ Then:
 - Army rule and Detachment rule(s) in plain language, explained once here.
 - The top two or three game plan tips (see strategy-guide.md), with a pointer to
   the full Game plan card.
+- If the export lists several dispositions: the recommended pick and why. Every
+  list: one line pointing to the Matchups card (strategy-guide.md section 8).
 
 ### Per unit (full form)
 ```
@@ -44,7 +46,7 @@ uv run <skill-dir>/scripts/build_cards.py 40k-output/<army-name>.json 40k-output
 ```
 
 This writes `.html` and `.pdf`. Order in the file: Game sequence card →
-Game plan card → cheat sheet (with the Reminders box on top) → unit cards.
+Game plan card → Matchups card → cheat sheet (with the Reminders box on top) → unit cards.
 Use `--no-pdf` to skip the PDF.
 
 ```json
@@ -64,7 +66,12 @@ Use `--no-pdf` to skip the PDF.
       {"name": "Deployment", "items": ["tip"]},
       {"name": "Scoring", "items": ["tip"]}
     ],
-    "note": "Exact scoring depends on your mission card. Share it for tailored tips."
+    "note": "Exact scoring depends on your mission card. Share it for tailored tips.",
+    "choice": ["Only when the export lists several dispositions: recommended pick + why"],
+    "matchups": [{"yours": "Take and Hold", "rows": [
+      {"opponent": "Purge the Foe", "you_play": "Immovable Object",
+       "they_play": "Unstoppable Force", "tip": "They want kills: screen Ezekiel, ..."}
+    ]}]
   },
   "reminders": [
     {"when": "Start of your Command phase", "items": ["Pick a combat doctrine"]}
@@ -96,6 +103,7 @@ Card rules:
   every card. Only mention them on a card where they interact with that unit.
 - Use "flag" for anything you aren't sure of; it prints as a dashed box.
 - Merge identical duplicate units into one card ("×2 (A & B)").
+- Don't start list items with "•" or "-": the renderer adds bullets. For a sub-step, start with "↳ ".
 
 ## Cheat sheet sections (in this order; skip empty ones)
 Before the battle · Start of each battle round · Command phase · Movement phase ·
@@ -116,3 +124,12 @@ Deep Strike reserves", "choose Force Disposition: Take and Hold").
 
 ## Game plan card
 Build it from `references/strategy-guide.md`.
+
+## Matchups card
+`scaffold_pack.py` prefills `plan.matchups` from `assets/disposition-matrix.json`:
+one group per disposition the user might pick, and one row per opponent
+disposition with `you_play` and `they_play` filled in. Write only each `tip`
+(strategy-guide.md section 8) and, when there are several options,
+`plan.choice`. For pasted lists, copy the names from the matrix file, never
+from memory. If the user's disposition isn't in the matrix, leave out
+`matchups` and say so.

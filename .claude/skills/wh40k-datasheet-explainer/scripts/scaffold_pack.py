@@ -6,7 +6,8 @@
 """Turn parse_datasheet.py output into a pack JSON for build_cards.py, with
 every stat and weapon prefilled. Claude then fills only the prose fields
 marked "TODO" (role, abilities, watch, plan, reminders, phases) and never
-retypes numbers.
+retypes numbers. The plan's matchup table (mission names for each opponent
+disposition) is prefilled from assets/disposition-matrix.json.
 
 Usage: uv run scaffold_pack.py parsed.json pack.json
 Identical duplicate units (e.g. Intercessor Squad A and B) are merged into one
@@ -14,7 +15,38 @@ card with "×2 (A & B)".
 """
 import json, sys
 
+import os
+
 STAT_ORDER = ["M", "T", "SV", "INV", "W", "LD", "OC"]
+MATRIX = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets", "disposition-matrix.json")
+
+
+def scaffold_plan(army):
+    """Game plan skeleton with the matchup table prefilled from the disposition
+    matrix: for each disposition the user might pick, what both players play
+    against each opponent disposition. Only the tips are left as TODO."""
+    m = json.load(open(MATRIX))
+    known = m["missions"]
+    opts = army.get("disposition_options") or [army.get("disposition", "")]
+    opts = [o for o in opts if o]
+    plan = {
+        "disposition": army.get("disposition", "") or "TODO ask the user",
+        "summary": "TODO one line: how this list wins",
+        "sections": "TODO Deployment + Scoring tips from references/strategy-guide.md",
+        "note": "Mission names from the disposition matrix; exact scoring is on your mission card. Share it for tailored tips.",
+    }
+    if len(opts) > 1:
+        plan["choice"] = ["TODO which disposition to pick and why (strategy-guide.md section 8)"]
+    matchups = []
+    for mine in opts:
+        if mine not in known:
+            continue  # unknown disposition name: no matrix row, say so in the plan
+        matchups.append({"yours": mine, "rows": [
+            {"opponent": opp, "you_play": known[mine][opp], "they_play": known[opp][mine],
+             "tip": "TODO tip vs this opponent (strategy-guide.md section 8)"} for opp in known]})
+    if matchups:
+        plan["matchups"] = matchups
+    return plan
 
 
 def card_stats(part):
@@ -81,7 +113,7 @@ def main():
                                            army.get("disposition", "")] if x),
         "edition": "11th Edition",
         "sequence": "TODO from references/game-sequence.md",
-        "plan": "TODO from references/strategy-guide.md",
+        "plan": scaffold_plan(army),
         "reminders": "TODO",
         "phases": "TODO",
         "units": units,

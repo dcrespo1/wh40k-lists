@@ -1,0 +1,58 @@
+{
+  "skill_name": "wh40k-datasheet-explainer",
+  "evals": [
+    {
+      "id": 1,
+      "name": "full-pack-newcomer-dark-angels",
+      "prompt": "Here's my Dark Angels list (lists/dark-angels.pdf). I'm pretty new. Can you make me the full printable pack: cheat sheet, game plan and unit cards?",
+      "expected_output": "An HTML (and PDF if possible) pack with game sequence, game plan, phase cheat sheet and one card per unit, stats matching the PDF; a newcomer-level chat summary that opens with Reminders.",
+      "files": [
+        "lists/dark-angels.pdf"
+      ],
+      "assertions": [
+        "An HTML pack file exists in outputs/",
+        "The pack has all four sections: game sequence, game plan, phase cheat sheet, unit cards",
+        "There is a unit card for each of the 10 distinct datasheets (Azrael + Inner Circle Companions, Belial + Deathwing Knights, Ezekiel, Lion El'Jonson, Techmarine, Intercessor Squad, Hellblaster Squad, Ballistus Dreadnought, Gladiator Lancer, Rhino)",
+        "Stat lines and weapon profiles on the cards match the PDF (spot-check Lion El'Jonson, Gladiator Lancer and Intercessor Squad against the parsed data)",
+        "The game plan names the Take and Hold Force Disposition",
+        "The chat reply opens with a Reminders checklist grouped by when things happen",
+        "The chat reply explains game terms in plain language for a newcomer (at least 3 terms such as Leader, Deep Strike, OC, invulnerable save)"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "quick-veteran-votann-purge",
+      "prompt": "quick one: votann list in lists/ (2000 Mosquitos). I've played a lot. Just give me the phase cheat sheet and a game plan for Purge the Foe, tl;dr style.",
+      "expected_output": "Phase cheat sheet + game plan only, veteran density, Purge the Foe specific, short chat reply.",
+      "files": [
+        "lists/2000-Mosquitos.pdf"
+      ],
+      "assertions": [
+        "A phase cheat sheet is delivered (as a file or in chat), sorted by phase",
+        "A game plan is delivered and it refers to Purge the Foe specifically",
+        "The chat reply is short: under 450 words",
+        "No newcomer padding: basic stats or common keywords are not defined (e.g. no explanation of what Toughness or OC means)",
+        "The army rule Prioritised Efficiency is covered with when it applies",
+        "It does not claim Buri Aegnirssen leads or attaches to a unit (his sheet has no Leader ability)",
+        "It does not state mission scoring details that weren't provided (no invented VP numbers for Purge the Foe), or clearly marks them as assumptions"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "unit-question-buri",
+      "prompt": "In my Votann list, what does Buri Aegnirssen actually do, and which unit should he lead?",
+      "expected_output": "Chat explanation of Buri's abilities and weapons; correctly says he has no Leader ability and works alone (Lone Operative).",
+      "files": [
+        "lists/2000-Mosquitos.pdf"
+      ],
+      "assertions": [
+        "Says Buri has no Leader ability on his sheet, so he can't lead a unit, and does not recommend attaching him to a specific unit",
+        "Explains Lone Operative: he can only be shot by attackers within 12\"",
+        "Explains Grudge-fuelled Fortitude: the first time he's destroyed, a 2+ at the end of the phase brings him back with full wounds",
+        "Explains Unhinged Vengeance: a D6+2\" surge move in the opponent's Shooting phase after he loses wounds to their shooting",
+        "Gets Bane's two profiles right: Strike 5 attacks S12 AP-3 D3 Precision; Sweep 10 attacks S6 AP-2 D1",
+        "Answers in chat without building a full printable pack"
+      ]
+    }
+  ]
+}

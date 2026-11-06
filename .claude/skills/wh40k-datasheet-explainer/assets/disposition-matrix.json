@@ -1,0 +1,18 @@
+{
+ "_about": "11th Edition Force Disposition matrix. Row = the player's own disposition, column = the opponent's. Each player plays the mission in THEIR row: you get missions[yours][theirs], your opponent gets missions[theirs][yours]. Mirror pairings give both players the same mission. Mission NAMES only: scoring was not available in text form, so never infer scoring from a name.",
+ "_source": "https://game-datamissions.com/11th/matrix (and the linked /11th/primary-missions deck pages), read 2026-11-05",
+ "dispositions": {
+  "Take and Hold": "Holding more objective markers than the enemy, across the whole battlefield.",
+  "Purge the Foe": "Destroying enemy units and winning by force.",
+  "Disruption": "Spoiling the enemy's plan and denying them ground.",
+  "Reconnaissance": "Scouting the battlefield and taking key intelligence positions.",
+  "Priority Assets": "Capturing and holding high-value assets spread around the battlefield."
+ },
+ "missions": {
+  "Take and Hold": {"Take and Hold": "Battlefield Dominance", "Purge the Foe": "Immovable Object", "Disruption": "Determined Acquisition", "Reconnaissance": "Purge and Secure", "Priority Assets": "Inescapable Dominion"},
+  "Purge the Foe": {"Take and Hold": "Unstoppable Force", "Purge the Foe": "Meatgrinder", "Disruption": "Punishment", "Reconnaissance": "Consecrate", "Priority Assets": "Destroyer's Wrath"},
+  "Disruption": {"Take and Hold": "Death Trap", "Purge the Foe": "Delaying Action", "Disruption": "Outmanoeuvre", "Reconnaissance": "Smoke and Mirrors", "Priority Assets": "Locate and Deny"},
+  "Reconnaissance": {"Take and Hold": "Reconnaissance Sweep", "Purge the Foe": "Triangulation", "Disruption": "Surveil the Foe", "Reconnaissance": "Gather Intel", "Priority Assets": "Search and Scour"},
+  "Priority Assets": {"Take and Hold": "Secure Asset", "Purge the Foe": "Vital Link", "Disruption": "Extract Relic", "Reconnaissance": "Vanguard Operation", "Priority Assets": "Sabotage"}
+ }
+}

@@ -82,9 +82,14 @@ the reminders, the sequence card and the game plan; see
 
 **Force Disposition and mission.** In 11th Edition each player picks a Force
 Disposition (exports often show it in the header, e.g. "Take and Hold"), and the
-mission comes from both players' dispositions. Note the user's disposition. Ask
-about the opponent's disposition or the mission card only if the user wants
-tailored scoring tips; otherwise proceed and say the tips are general.
+mission comes from both players' dispositions: each player plays the mission
+in their own row of the matrix (`assets/disposition-matrix.json`), so the two
+sides usually score different missions. Note the user's disposition. If the
+export lists several, recommend one. Either way, give a matchup row for each
+opponent disposition (strategy-guide.md section 8; the scaffold prefills the
+mission names). Ask about the opponent's disposition or the mission card only
+if the user wants tailored scoring tips; otherwise proceed and say the tips
+are general. Mission names don't tell you scoring, so don't infer it.
 
 **Detail level.** Support two modes, switchable any time:
 - **Newcomer** (user is new, or asks basic questions): explain every keyword
@@ -109,7 +114,10 @@ the chat summary and offer the cards and cheat sheet.
    - **Game sequence card**: the order of operations for a game, from
      `references/game-sequence.md`, with this army's pre-game items slotted in.
    - **Game plan card**: deployment and scoring tips built from this list and
-     its Force Disposition, following `references/strategy-guide.md`.
+     its Force Disposition, following `references/strategy-guide.md`. If the
+     export lists several dispositions, it opens with a recommended pick.
+   - **Matchups card**: for each opponent disposition, the mission you play,
+     the mission they play, and one tip for playing into them.
    - **Phase cheat sheet**, with the Reminders box at the top. It re-sorts
      every ability and stratagem by when it happens. Players usually forget
      abilities through timing, not misunderstanding, so this is the core output.
