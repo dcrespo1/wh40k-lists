@@ -14,12 +14,18 @@ objective, since Bolter Discipline wants an objective in range anyway" beats
   and end the card with: "Exact scoring depends on your mission card. Share it
   for tailored tips."
 - If the export lists more than one disposition ("Purge the Foe or Priority
-  Assets"), the user hasn't chosen yet. Give tips for each one you can describe,
-  label which tip belongs to which, and ask them to pick before the game.
-- What a disposition is about, where known: **Take and Hold**: controlling
-  objectives. **Purge the Foe**: destroying enemy units. **Disruption**:
-  actions in enemy territory. For any other disposition, use only what the user
-  or the export tells you; don't invent its scoring.
+  Assets"), the user hasn't chosen yet. Recommend one (section 8), label which
+  tip belongs to which, and ask them to confirm before the game.
+- What each disposition is about (themes from the mission decks; the full list
+  and matrix are in `assets/disposition-matrix.json`):
+  - **Take and Hold:** holding more objectives than the enemy, everywhere.
+  - **Purge the Foe:** destroying enemy units.
+  - **Disruption:** spoiling the enemy's plan and denying them ground.
+  - **Reconnaissance:** scouting and taking key positions.
+  - **Priority Assets:** capturing and holding high-value assets around the
+    battlefield.
+  These are themes, not scoring. Don't state VP, timings or actions for any
+  mission unless the user gives you the card.
 
 ## 2. Sort the units into jobs
 Work out each unit's job from its stats and abilities:
@@ -87,3 +93,44 @@ For each tip that combines two or more rules, or claims a timing:
 ## 7. Keep it short
 Four to six deployment tips, four to six scoring tips, one closing line about the
 mission card. These go on one card; the chat overview gets the top two or three.
+
+## 8. Disposition choice and matchups
+The two players' dispositions pick the missions, and **each player plays the
+mission from their own row** of the matrix: you play `missions[yours][theirs]`
+and your opponent plays `missions[theirs][yours]`, so you usually score
+different things. `scaffold_pack.py` fills these names into
+`plan.matchups`. Never retype or guess a mission name, and never infer scoring
+from a name ("Meatgrinder" tells you nothing reliable about its VP).
+
+**Choosing (the export lists several options).** Compare the list's unit jobs
+(section 2) with each option's theme and recommend one, with two or three
+reasons tied to named units. Examples:
+- Lots of OC and durable holders → Take and Hold.
+- Several hammers, deep strikers, kill-based resources (e.g. gaining a resource
+  when a unit is destroyed) → Purge the Foe.
+- Cheap, fast or infiltrating units, units that act while engaged or
+  battle-shocked → Disruption or Reconnaissance.
+- Units that can sit on far-flung objectives and survive → Priority Assets.
+Then name what would change the answer: "if you expect a gunline, pick X".
+Give one line of reasoning per option, not a full plan for each. Put it in
+`plan.choice` (it prints under "Which disposition?").
+
+**Playing into each opponent (every pack, one or several options).** For each
+row of `plan.matchups`, write one short tip (about 15 words) about what the
+OPPONENT's disposition theme means for this list:
+- vs **Take and Hold**: they will fight hard for objective markers. Plan OC
+  trades, and name your stickiest holder.
+- vs **Purge the Foe**: they want kills. Hide or screen cheap, easy-to-kill
+  units and characters, and keep reserves safe.
+- vs **Disruption**: they want to spoil your plan in your territory. Keep a
+  screen or reserve at home.
+- vs **Reconnaissance**: they will spread out to take positions. Name the fast
+  units or long guns that punish lone scouts.
+- vs **Priority Assets**: they will commit to specific high-value points. Name
+  the hammer that hits whatever they commit.
+Ground each tip in a unit or rule from the list. Keep it about their theme, not
+their mission's scoring. When it's a mirror (same disposition), say you're
+racing them for the same thing.
+
+In chat, the overview gets the recommendation (if there's a choice) and one
+line saying the Matchups card has a row per opponent disposition.

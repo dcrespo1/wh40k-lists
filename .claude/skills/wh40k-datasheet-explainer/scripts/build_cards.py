@@ -46,10 +46,26 @@ def main():
         out.append(f"<div class='card plan'><div class='head'><h2>Game plan</h2><span>{E(pl.get('disposition',''))}</span></div>")
         if pl.get("summary"):
             out.append(f"<p class='role'>{E(pl['summary'])}</p>")
+        if pl.get("choice"):
+            out.append(listsec([{"name": "Which disposition?", "items": pl["choice"]}]))
         out.append(listsec(pl.get("sections", [])))
         if pl.get("note"):
             out.append(f"<div class='watch'>{E(pl['note'])}</div>")
         out.append("</div>")
+
+    # 2b. Matchups card: what both players play vs each opponent disposition
+    if d.get("plan", {}).get("matchups"):
+        mu = d["plan"]["matchups"]
+        out.append("<div class='card plan'><div class='head'><h2>Matchups</h2><span>Your mission vs theirs</span></div>")
+        for grp in mu:
+            if len(mu) > 1:
+                out.append(f"<h3>If you pick {E(grp['yours'])}</h3>")
+            t = "<tr><th class='l'>Opponent picks</th><th class='l'>You play</th><th class='l'>They play</th><th class='l'>Watch for</th></tr>"
+            for r in grp["rows"]:
+                t += (f"<tr><td class='l'>{E(r['opponent'])}</td><td class='l'>{E(r['you_play'])}</td>"
+                      f"<td class='l'>{E(r['they_play'])}</td><td class='l sm'>{E(r['tip'])}</td></tr>")
+            out.append(f"<table>{t}</table>")
+        out.append("<div class='foot'>Each player plays the mission from their own disposition's row. Mission names from the 11th Edition disposition matrix; scoring is on the mission card.</div></div>")
 
     # 3. Cheat sheet, with reminders boxed at the top
     if d.get("phases") or d.get("reminders"):
